@@ -2,7 +2,7 @@
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-#include "pybind11/pybind11.h"
+#include "../pybind11/include/pybind11/pybind11.h"
 #pragma GCC diagnostic pop
 
 namespace py = pybind11;
@@ -19,7 +19,23 @@ PYBIND11_MODULE( lemonator, m ) {
          py::arg("v"), py::arg("buffering") = hwlib::buffering::unbuffered );
    
    py::class_< lemonator_proxy >( m, "lemonator" )
+      //functions
       .def( py::init< int >() )
+      
+      
+      //variables
+      .def_readonly( "lcd", &lemonator_proxy::p_lcd )
+      .def_readonly( "keypad", &lemonator_proxy::p_keypad )
+      .def_readonly( "distance", &lemonator_proxy::p_distance )
+      .def_readonly( "color", &lemonator_proxy::p_color )
+      .def_readonly( "temperature", &lemonator_proxy::p_temperature )
+      .def_readonly( "reflex", &lemonator_proxy::p_reflex )
+      .def_readonly( "heather", &lemonator_proxy::p_heater )
+      .def_readonly( "sirup_pump", &lemonator_proxy::p_sirup_pump )
+      .def_readonly( "sirup_valve", &lemonator_proxy::p_sirup_valve )
+      .def_readonly( "water_pump", &lemonator_proxy::p_water_pump )
+      .def_readonly( "water_valve", &lemonator_proxy::p_water_valve )
+      .def_readonly( "led_green", &lemonator_proxy::p_led_green )
       .def_readonly( "led_yellow", &lemonator_proxy::p_led_yellow );
 }
 
