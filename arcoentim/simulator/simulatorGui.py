@@ -1,13 +1,23 @@
 from tkinter import *
+import lemonator
 
 class Simulator(Frame):
-    level = 0
-    color = 10
-    heater = 20
-    sirupPumpValue = "Off"
-    sirupValveValue = "Off"
-    waterPumpValue = "Off"
-    waterValveValue = "Off"
+    hw = lemonator.lemonator(2)
+    level = hw.distance #The example shows this however i can not test it
+    color = hw.color
+    heater = hw.heather
+    sirupPumpValue = hw.sirup_pump
+    sirupValveValue = hw.sirup_valve
+    waterPumpValue = hw.water_pump
+    waterValveValue = hw.water_valve
+
+    ## We might also be missing these values, but i am not sure if we are supposed to use them
+    #lcd = hw.lcd
+    #keypad = hw.keypad
+    #liquidTemperature = hw.temperature
+    #isCupPresent = hw.reflex
+    #greenLed = hw.led_green
+    #yellowLed = hw.led_yellow
 
     def __init__(self, master=None):
         self.master = master
@@ -17,7 +27,8 @@ class Simulator(Frame):
 
     def updateValues(self):
         print("hello")
-        self.master.after(1000, self.updateValues())
+        self.updateLabels()
+        self.master.after(1000, self.updateValues)
 
     def createWidgets(self):
         ## Quit Button
@@ -56,6 +67,16 @@ class Simulator(Frame):
         self.waterValve.pack()
 
     def updateLabels(self):
-        pass
+        ## Update all variables
+        self.level = self.hw.distance
+        self.color = self.hw.color
+        self.heater = self.hw.heather
+        self.sirupPumpValue = self.hw.sirup_pump
+        self.sirupValveValue = self.hw.sirup_valve
+        self.waterPumpValue = self.hw.water_pump
+        self.waterValveValue = self.hw.water_valve
+
+        ## Update labels
+        self.levelSensor.config(text="Level Sensor: {}".format(self.level))
 
 
