@@ -7,6 +7,7 @@ Teacher:    Huib Aldewereld
 """
 
 import simulatorGui as Gui
+from tkinter import *
 
 root = Tk()
 root.title("Lemonator Simulator")
