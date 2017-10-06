@@ -1,0 +1,6 @@
+INFO:root: Sensor with ID: waterLevelSensor reports value 1
+INFO:root: Sensor with ID: waterLevelSensor reports value 1
+INFO:root: Sensor with ID: waterLevelSensor reports value 1
+INFO:root: Sensor with ID: waterLevelSensor reports value 1
+INFO:root: Sensor with ID: waterLevelSensor reports value 1
+INFO:root: Sensor with ID: waterLevelSensor reports value 1

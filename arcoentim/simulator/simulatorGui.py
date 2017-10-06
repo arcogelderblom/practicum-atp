@@ -1,9 +1,12 @@
 from tkinter import *
+import lemonatorLogger
 from copy import deepcopy
 #import lemonator
 
 class Simulator(Frame):
     """
+    ## HW variables with lemonator
+
     hw = lemonator.lemonator(2)
     waterLevel = hw.distance #The example shows this however i can not test it
     heater = hw.heather
@@ -21,6 +24,8 @@ class Simulator(Frame):
     yellowLed = hw.led_yellow
     """
 
+    ## HW variables without lemonator
+
     waterLevel = 0
     heater = 0
     liquidTemperature = 0
@@ -35,6 +40,9 @@ class Simulator(Frame):
     isCupPresent = 0
     greenLed = 0
     yellowLed = 0
+
+    ## Logger
+    log = lemonatorLogger.lemonatorLogger("log.txt")
 
     def __init__(self, master=None):
         self.master = master
@@ -135,5 +143,14 @@ class Simulator(Frame):
 
         ## Update labels
         self.levelSensor.config(text="Level Sensor: {}".format(self.level))
+
+        ## Log updated variables
+        log.addSensorInfoLine("waterLevelSensor", self.waterLevel)
+        log.addSensorInfoLine("color", self.color)
+        log.addSensorInfoLine("heater", self.heater)
+        log.addSensorInfoLine("sirupPumpValue", self.sirupPumpValue)
+        log.addSensorInfoLine("sirupValveValue", self.sirupValveValue)
+        log.addSensorInfoLine("waterPumpValue", self.waterPumpValue)
+        log.addSensorInfoLine("waterValveValue", self.waterValveValue)
         """
 

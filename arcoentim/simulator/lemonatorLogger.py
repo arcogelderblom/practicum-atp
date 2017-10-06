@@ -66,7 +66,3 @@ class lemonatorLogger:
         """
         logging.basicConfig(filename=self.filename, level=typeOfLogItem)
         self.functions[typeOfLogItem](line)
-
-
-log = loggerTwo("newLog.log")
-log.addSensorInfoLine("5x3bz", 10)
