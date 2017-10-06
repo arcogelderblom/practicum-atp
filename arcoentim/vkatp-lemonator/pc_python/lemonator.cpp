@@ -1,4 +1,4 @@
-#include "lemonator_proxy.hpp"
+#include "../library/lemonator_proxy.hpp"
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

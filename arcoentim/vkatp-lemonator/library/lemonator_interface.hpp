@@ -2,7 +2,7 @@
 #define _LEMONATOR_INTERFACE_H
 
 #include <algorithm>
-#include "hwlib.hpp"
+#include "../../hwlib/library/hwlib.hpp"
 #include "sr04.hpp"
 #include "tcs3200.hpp"
 #include "ds1820.hpp"
