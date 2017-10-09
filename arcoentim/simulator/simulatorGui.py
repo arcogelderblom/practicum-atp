@@ -259,3 +259,18 @@ class Simulator(Frame):
         self.waterPumpLabelValue = self.hw.water_pump
         self.waterValveLabelValue = self.hw.water_valve
         """
+
+    def setLemonadeValue(self, newValue):
+        self.userLemonadeValue = str(newValue)
+
+    def setWaterValue(self, newValue):
+        self.userWaterValue = str(newValue)
+
+    def setStartPouring(self):
+        self.userStartMixing = True
+
+    def setIsCupPresent(self, newValue):
+        if newValue:
+            self.iscupPresent = "Yes"
+        else:
+            self.iscupPresent = "No"
