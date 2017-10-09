@@ -52,7 +52,7 @@ class Simulator(Frame):
 
     def updateValues(self):
         print("hello")
-        self.updateLabels()
+        #self.updateLabels()
         self.master.after(1000, self.updateValues)
 
     def keypadButton(self, buttonValue):
@@ -83,7 +83,7 @@ class Simulator(Frame):
         self.colorSensor.pack()
 
         ## Label for heater
-        self.heater = Label(self.master, text="Heater Temperature: {} celsius".format(self.heater))
+        self.heater = Label(self.master, text="Liquid Temperature: {} celsius".format(self.heater))
         self.heater.pack()
 
         ## Label for sirup pump
@@ -104,6 +104,10 @@ class Simulator(Frame):
 
         ## Keypad
         self.waterValve = Label(self.master, text="Keypad buttons:")
+        self.waterValve.pack()
+
+	## Heather
+	self.waterValve = Label(self.master, text="Water Valve: {}".format(self.waterValveValue))
         self.waterValve.pack()
 
         #self.b1 =
@@ -130,7 +134,17 @@ class Simulator(Frame):
 
 
     def updateLabels(self):
-        pass
+        self.waterLevel
+
+	## Update labels
+        self.levelSensor.config(text="Level Sensor: {}".format(self.waterLevel))
+	self.levelSensor.config(text="Color Sensor: {}".format(self.color))
+	self.levelSensor.config(text="Liquid Temperature: {} celsius".format(self.heater))
+	self.levelSensor.config(text="Sirup Pump: {}".format(self.sirupPumpValue))
+	self.levelSensor.config(text="Sirup Valve: {}".format(self.sirupValveValue))
+	self.levelSensor.config(text="Water Pump: {}".format(self.waterPumpValue))
+	self.levelSensor.config(text="Water Valve: {}".format(self.waterValveValue))
+
         """
         ## Update all variables
         self.waterLevel = self.hw.distance

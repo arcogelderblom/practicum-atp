@@ -4,6 +4,3 @@
 [submodule "arcoentim/hwlib"]
 	path = arcoentim/hwlib
 	url = git://github.com/wovo/hwlib
-[submodule "arcoentim/bmtpk"]
-	path = arcoentim/bmtpk
-	url = git://github.com/wovo/bmptk
