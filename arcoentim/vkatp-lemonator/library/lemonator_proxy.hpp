@@ -56,7 +56,7 @@ public:
 	  }
    }
    
-   std::string transaction( std::string s, bool response = true ){
+   std::string transaction( std::string s, bool response = false ){//Used to be true
       if( log_transactions ){
 	     std::cout << "[" << s << "]" << std::flush;
       }   

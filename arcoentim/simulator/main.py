@@ -14,10 +14,13 @@ root.title("Lemonator Simulator")
 app = Gui.Simulator(master=root)
 app.updateValues()
 
-app.setLemonadeValue(5)
-app.setIsCupPresent(True)
-app.setWaterValue(7)
-app.setStartPouring()
+#app.setLemonadeValue(5)
+#app.setIsCupPresent(True)
+#app.setWaterValue(7)
+#app.setStartPouring()
 
 root.mainloop()
-root.destroy()
+try:
+    root.destroy()
+finally:
+    print("App has been destroyed")

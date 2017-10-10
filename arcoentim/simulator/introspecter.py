@@ -1,10 +1,6 @@
-from unittest import *
-import doctest
-import io
 import inspect
-from contextlib import redirect_stdout
 
-import class_demo
+import lemonator
 
 class inspector():
     itemTypes = {}
@@ -28,6 +24,6 @@ class inspector():
         return inspect.signature(name)
 
 ## put your module name in the class creator and run the code
-inspectt = inspector(class_demo)
+inspectt = inspector(lemonator)
 inspectt.sortIntoTypes()
 print(inspectt.itemTypes)

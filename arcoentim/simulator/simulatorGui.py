@@ -1,7 +1,7 @@
 from tkinter import *
 import lemonatorLogger
 import operator
-#import lemonator
+import lemonator
 
 class rgbColor():
     def __init__(self, r, g, b):
@@ -13,26 +13,33 @@ class rgbColor():
         return '(' + str(self.r) + ',' + str(self.g) + ',' + str(self.b) + ')'
 
 class Simulator(Frame):
-    """
     ## HW variables with lemonator
 
-    hw = lemonator.lemonator(2)
-    waterLevel = hw.distance #The example shows this however i can not test it
+    #get() is for bool
+    #getc() is for keypad char
+    #read_mm() is for distances
+    #read_mc() is for reading sensor values as int
+    #read_rgb() is for color sensor
+    #set() is for setting variable
+
+    #"""
+    hw = lemonator.lemonator( 2 )
+    waterLevel = 0#hw.distance
     heater = hw.heather
-    liquidTemperature = hw.temperature
-    color = hw.color
+    liquidTemperature = 0#hw.temperature
+    color = 0#hw.color
     sirupPumpLabelValue = hw.sirup_pump
     sirupValveLabelValue = hw.sirup_valve
     waterPumpLabelValue = hw.water_pump
     waterValveLabelValue = hw.water_valve
-    lcd = hw.lcd
-    keypad = hw.keypad
-    liquidTemperature = hw.temperature
-    iscupPresentLabel = hw.reflex
+    lcd = ""#hw.lcd
+    keypad = ""#hw.keypad
+    iscupPresentLabel = "No"#hw.reflex
     greenLed = hw.led_green
     yellowLed = hw.led_yellow
-    """
+    #"""
 
+    """
     ## simulator variables
     waterLevel = 0
     liquidTemperature = 0
@@ -46,6 +53,7 @@ class Simulator(Frame):
     greenLed = "No"
     yellowLed = "No"
     lcd = "Plz put cup in machine\nand specify an amount (A and B keys)"
+    """
 
     # Variables for amounts
     userLemonadeValue = "0"
@@ -110,15 +118,15 @@ class Simulator(Frame):
         self.levelSensorLabel.pack()
 
         ## Label for heather
-        self.heaterLabel = Label(self.master, text="Heather: {}".format(self.heater))
+        #self.heaterLabel = Label(self.master, text="Heather: {}".format(self.heater))
         #self.heaterLabel.pack()
 
         ## Label for liquid temperature
-        self.liquidLabel = Label(self.master, text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
+        #self.liquidLabel = Label(self.master, text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
         #self.liquidLabel.pack()
 
         ## Label for color sensor
-        self.colorSensorLabel = Label(self.master, text="Color Sensor: {}".format(self.color))
+        #self.colorSensorLabel = Label(self.master, text="Color Sensor: {}".format(self.color))
         #self.colorSensorLabel.pack()
 
         ## Label for sirup pump
@@ -142,11 +150,11 @@ class Simulator(Frame):
         self.cupPresentLabel.pack()
 
         ## Green led
-        self.greenLedLabel = Label(self.master, text="Is green led on: {}".format(self.greenLed))
+        #self.greenLedLabel = Label(self.master, text="Is green led on: {}".format(self.greenLed))
         #self.greenLedLabel.pack()
 
         ## Yellow led
-        self.yellowLedLabel = Label(self.master, text="Is yellow led on: {}".format(self.yellowLed))
+        #self.yellowLedLabel = Label(self.master, text="Is yellow led on: {}".format(self.yellowLed))
         #self.yellowLedLabel.pack()
 
         ## LCD
@@ -179,6 +187,8 @@ class Simulator(Frame):
             self.waterPumpValue = 0
             self.waterValveValue = 1
             self.lcd = "Plz put a cup in the machine"
+            #self.hw.lcd.set("Plz put a cup in the machine")
+            #self.lcd = self.hw.lcd
         elif self.iscupPresent == "Yes":
             if self.userStartMixing:
                 self.lcd = "Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue))
