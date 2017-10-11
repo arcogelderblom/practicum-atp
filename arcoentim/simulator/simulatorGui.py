@@ -1,18 +1,17 @@
 from tkinter import *
 import lemonatorLogger
-import operator
-import lemonator
+#import lemonator
+import gui
 
 class rgbColor():
     def __init__(self, r, g, b):
         self.r = r
         self.g = g
         self.b = b
-
     def __str__(self):
-        return '(' + str(self.r) + ',' + str(self.g) + ',' + str(self.b) + ')'
+        return '(' + str(self.r) + ','+ str(self.r) + ',' + str(self.r) + ')'
 
-class Simulator(Frame):
+class simulatorGui():
     ## HW variables with lemonator
 
     #get() is for bool
@@ -22,7 +21,7 @@ class Simulator(Frame):
     #read_rgb() is for color sensor
     #set() is for setting variable
 
-    #"""
+    """
     hw = lemonator.lemonator( 2 )
     waterLevel = 0#hw.distance
     heater = hw.heather
@@ -37,9 +36,9 @@ class Simulator(Frame):
     iscupPresentLabel = "No"#hw.reflex
     greenLed = hw.led_green
     yellowLed = hw.led_yellow
-    #"""
-
     """
+
+    #"""
     ## simulator variables
     waterLevel = 0
     liquidTemperature = 0
@@ -53,7 +52,7 @@ class Simulator(Frame):
     greenLed = "No"
     yellowLed = "No"
     lcd = "Plz put cup in machine\nand specify an amount (A and B keys)"
-    """
+    #"""
 
     # Variables for amounts
     userLemonadeValue = "0"
@@ -63,120 +62,65 @@ class Simulator(Frame):
 
     ## Logger
     log = lemonatorLogger.lemonatorLogger("log.txt")
+    gui = gui.gui
 
     def __init__(self, master=None):
-        self.master = master
-        Frame.__init__(self, master)
-        self.pack()
-        self.createWidgets()
+        self.guiBase()
 
-    def updateValues(self):
-        self.updateLabels()
-        self.master.after(1000, self.updateValues)
-
-    def assignDrinkValues(self, value):
-        if self.userSelectLemonade:
-            self.userLemonadeValue += value
-        else:
-            self.userWaterValue += value
-
-    def keypadButton(self, buttonValue):
-        ## Only a few have been added now the rest comes later when we know what to do with them
-        correspondingActions = {1: lambda: self.assignDrinkValues("1"),
-                                2: lambda: self.assignDrinkValues("2"),
-                                3: lambda: self.assignDrinkValues("3"),
-                                4: lambda: self.assignDrinkValues("4"),
-                                5: lambda: self.assignDrinkValues("5"),
-                                6: lambda: self.assignDrinkValues("6"),
-                                7: lambda: self.assignDrinkValues("7"),
-                                8: lambda: self.assignDrinkValues("8"),
-                                9: lambda: self.assignDrinkValues("9"),
-                                0: lambda: self.assignDrinkValues("0"),
-                                '*': lambda: self.__setattr__("iscupPresent", "No"), # Take the cup away from the simulator
-                                '#': lambda: self.__setattr__("iscupPresent", "Yes"), # Put the cup back into the simulator
-                                'A': lambda: self.__setattr__("userSelectLemonade", False), # Select water amount
-                                'B': lambda: self.__setattr__("userSelectLemonade", True), # Select lemonade amount
-                                'C': lambda: self.__setattr__("userStartMixing", True), # Start mixing
-                                'D': lambda: print('D')}
-
-        ## Execute watever the lambda function needs to
-        correspondingActions[buttonValue]()
-
-    def createWidgets(self):
-        self.master.resizable(width=False, height=False)
-        self.master.geometry('{}x{}'.format( 500, 500))
-        ## Quit Button
-        self.master.geometry()
-        self.QUIT = Button(self)
-        self.QUIT["text"] = "QUIT"
-        self.QUIT["fg"]   = "red"
-        self.QUIT["command"] =  self.quit
-        self.QUIT.pack()
-
+    def guiBase(self):
         ## Label for level sensor
-        self.levelSensorLabel = Label(self.master, text="Level Sensor: {} ml".format(self.waterLevel))
+        self.levelSensorLabel = Label(self.gui.master, text="Level Sensor: {} ml".format(self.waterLevel))
         self.levelSensorLabel.pack()
 
         ## Label for heather
-        #self.heaterLabel = Label(self.master, text="Heather: {}".format(self.heater))
-        #self.heaterLabel.pack()
+        self.heaterLabel = Label(self.gui.master, text="Heather: {}".format(self.heater))
+        # self.heaterLabel.pack()
 
         ## Label for liquid temperature
-        #self.liquidLabel = Label(self.master, text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
-        #self.liquidLabel.pack()
+        self.liquidLabel = Label(self.gui.master, text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
+        # self.liquidLabel.pack()
 
         ## Label for color sensor
-        #self.colorSensorLabel = Label(self.master, text="Color Sensor: {}".format(self.color))
-        #self.colorSensorLabel.pack()
+        self.colorSensorLabel = Label(self.gui.master, text="Color Sensor: {}".format(self.color))
+        # self.colorSensorLabel.pack()
 
         ## Label for sirup pump
-        self.sirupPumpLabel = Label(self.master, text="Sirup Pump: {}".format(self.sirupPumpValue))
+        self.sirupPumpLabel = Label(self.gui.master, text="Sirup Pump: {}".format(self.sirupPumpValue))
         self.sirupPumpLabel.pack()
 
         ## Label for sirup valve
-        self.sirupValveLabel = Label(self.master, text="Sirup Valve: {}".format(self.sirupValveValue))
+        self.sirupValveLabel = Label(self.gui.master, text="Sirup Valve: {}".format(self.sirupValveValue))
         self.sirupValveLabel.pack()
 
         ## Label for water pump
-        self.waterPumpLabel = Label(self.master, text="Water Pump: {}".format(self.waterPumpValue))
+        self.waterPumpLabel = Label(self.gui.master, text="Water Pump: {}".format(self.waterPumpValue))
         self.waterPumpLabel.pack()
 
         ## Label for water valve
-        self.waterValveLabel = Label(self.master, text="Water Valve: {}".format(self.waterValveValue))
+        self.waterValveLabel = Label(self.gui.master, text="Water Valve: {}".format(self.waterValveValue))
         self.waterValveLabel.pack()
 
         ## Cup present label
-        self.cupPresentLabel = Label(self.master, text="Is a cup present: {}".format(self.iscupPresent))
+        self.cupPresentLabel = Label(self.gui.master, text="Is a cup present: {}".format(self.iscupPresent))
         self.cupPresentLabel.pack()
 
         ## Green led
-        #self.greenLedLabel = Label(self.master, text="Is green led on: {}".format(self.greenLed))
-        #self.greenLedLabel.pack()
+        self.greenLedLabel = Label(self.gui.master, text="Is green led on: {}".format(self.greenLed))
+        # self.greenLedLabel.pack()
 
         ## Yellow led
-        #self.yellowLedLabel = Label(self.master, text="Is yellow led on: {}".format(self.yellowLed))
-        #self.yellowLedLabel.pack()
+        self.yellowLedLabel = Label(self.gui.master, text="Is yellow led on: {}".format(self.yellowLed))
+        # self.yellowLedLabel.pack()
 
         ## LCD
-        self.lcdValueLabel = Label(self.master, text="LCD Value: {}".format(self.lcd))
+        self.lcdValueLabel = Label(self.gui.master, text="LCD Value: {}".format(self.lcd))
         self.lcdValueLabel.place(x=100, y=200)
 
-        Button(self.master, text="1", command=lambda: self.keypadButton(1)).place(x=160, y=300)
-        Button(self.master, text="2", command=lambda: self.keypadButton(2)).place(x=210, y=300)
-        Button(self.master, text="3", command=lambda: self.keypadButton(3)).place(x=260, y=300)
-        Button(self.master, text="4", command=lambda: self.keypadButton(4)).place(x=160, y=330)
-        Button(self.master, text="5", command=lambda: self.keypadButton(5)).place(x=210, y=330)
-        Button(self.master, text="6", command=lambda: self.keypadButton(6)).place(x=260, y=330)
-        Button(self.master, text="7", command=lambda: self.keypadButton(7)).place(x=160, y=360)
-        Button(self.master, text="8", command=lambda: self.keypadButton(8)).place(x=210, y=360)
-        Button(self.master, text="9", command=lambda: self.keypadButton(9)).place(x=260, y=360)
-        Button(self.master, text="0", command=lambda: self.keypadButton(0)).place(x=210, y=390)
-        Button(self.master, text="*", command=lambda: self.keypadButton('*')).place(x=160, y=390)
-        Button(self.master, text="#", command=lambda: self.keypadButton('#')).place(x=260, y=390)
-        Button(self.master, text="A", command=lambda: self.keypadButton('A')).place(x=310, y=300)
-        Button(self.master, text="B", command=lambda: self.keypadButton('B')).place(x=310, y=330)
-        Button(self.master, text="C", command=lambda: self.keypadButton('C')).place(x=310, y=360)
-        Button(self.master, text="D", command=lambda: self.keypadButton('D')).place(x=310, y=390)
+    #def assignDrinkValues(self, value):
+    #    if self.userSelectLemonade:
+    #        self.userLemonadeValue += value
+    #    else:
+    #        self.userWaterValue += value
 
 
     def updateLabels(self):
@@ -257,30 +201,3 @@ class Simulator(Frame):
         self.log.addSensorInfoLine("green led on", self.greenLed)
         self.log.addSensorInfoLine("yellow led on", self.yellowLed)
         self.log.addSensorInfoLine("lcd", self.lcd)
-
-
-        """
-        ## Update all variables
-        self.waterLevel = self.hw.distance
-        self.color = self.hw.color
-        self.heater = self.hw.heather
-        self.sirupPumpLabelValue = self.hw.sirup_pump
-        self.sirupValveLabelValue = self.hw.sirup_valve
-        self.waterPumpLabelValue = self.hw.water_pump
-        self.waterValveLabelValue = self.hw.water_valve
-        """
-
-    def setLemonadeValue(self, newValue):
-        self.userLemonadeValue = str(newValue)
-
-    def setWaterValue(self, newValue):
-        self.userWaterValue = str(newValue)
-
-    def setStartPouring(self):
-        self.userStartMixing = True
-
-    def setIsCupPresent(self, newValue):
-        if newValue:
-            self.iscupPresent = "Yes"
-        else:
-            self.iscupPresent = "No"

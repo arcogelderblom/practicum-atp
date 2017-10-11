@@ -47768,3 +47768,3289 @@ INFO:root: Sensor with ID: yellow led on reports value No
 INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
 Selected amounts Water: 0 Lemonade: 0
 Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value No
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Plz put a cup in the machine
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 5 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 5 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 5 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing water now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 5
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 57
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 57
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 59 Lemonade: 57
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 1
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 2
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 3
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 4
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 5
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 6
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 7
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 8
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 9
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 10
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 11
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 12
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 13
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 14
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 15
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 16
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 17
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 18
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 19
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 20
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 21
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 22
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 23
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 24
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 25
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 26
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 27
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 28
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 29
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 30
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 31
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 32
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 33
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 34
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 35
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 36
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 37
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 38
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 39
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 40
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 41
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 42
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 43
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 44
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 45
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 46
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 47
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 48
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 49
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 50
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 51
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 52
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 53
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 54
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 55
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 56
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 1
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 0
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: lemonade
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 57
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 58
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 59
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 60
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 61
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 62
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 63
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 64
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 65
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 66
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 67
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 68
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 69
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 70
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 71
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 72
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 73
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 74
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 75
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 76
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 77
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 78
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 79
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 80
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 81
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 82
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 83
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 84
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 85
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 86
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 87
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 88
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 89
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 90
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 91
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 92
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 93
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 94
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 95
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 96
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 97
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 98
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 99
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 100
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 101
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 102
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 103
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 104
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 105
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 106
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 107
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 108
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 109
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 110
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 111
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 112
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 113
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 114
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 115
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 1
+INFO:root: Sensor with ID: waterValveLabelValue reports value 0
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Pouring your drink
+Selected amounts Water: 59 Lemonade: 57
+Now pouring: water
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 116
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Drink has been poured
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
+INFO:root: Sensor with ID: waterlevelSensorLabel reports value 0
+INFO:root: Sensor with ID: Liquid temperature reports value 0
+INFO:root: Sensor with ID: heater reports value Off
+INFO:root: Sensor with ID: color reports value (0,0,0)
+INFO:root: Sensor with ID: sirupPumpLabelValue reports value 0
+INFO:root: Sensor with ID: sirupValveLabelValue reports value 1
+INFO:root: Sensor with ID: waterPumpLabelValue reports value 0
+INFO:root: Sensor with ID: waterValveLabelValue reports value 1
+INFO:root: Sensor with ID: is cup present reports value Yes
+INFO:root: Sensor with ID: green led on reports value No
+INFO:root: Sensor with ID: yellow led on reports value No
+INFO:root: Sensor with ID: lcd reports value Waiting for start(C) or values(A, B)
+Selected amounts Water: 0 Lemonade: 0
+Changing lemonade now
