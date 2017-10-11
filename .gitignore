@@ -1,2 +1,4 @@
-
 arcoentim/simulator/log.txt
+*.exe
+*.workspace
+*.pyd

@@ -56,7 +56,7 @@ public:
 	  }
    }
    
-   std::string transaction( std::string s, bool response = false ){//Used to be true
+   std::string transaction( std::string s, bool response = true ){
       if( log_transactions ){
 	     std::cout << "[" << s << "]" << std::flush;
       }   
@@ -216,7 +216,7 @@ public:
 	  p_distance( port, "d" ),
 	  p_color( port, "c" ),
 	  p_temperature( port, "t" ),
-	  p_reflex( port, "f" ),
+	  p_reflex( port, "r" ),
 	  p_heater( port, "h" ),
 	  p_sirup_pump( port, "sp" ),
       p_sirup_valve( port, "sv" ),

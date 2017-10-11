@@ -1,6 +1,6 @@
 from tkinter import *
 import lemonatorLogger
-#import lemonator
+import lemonator
 import gui
 
 class rgbColor():
@@ -21,36 +21,34 @@ class simulatorGui():
     #read_rgb() is for color sensor
     #set() is for setting variable
 
-    """
-    hw = lemonator.lemonator( 2 )
-    waterLevel = 0#hw.distance
-    heater = hw.heather
-    liquidTemperature = 0#hw.temperature
-    color = 0#hw.color
-    sirupPumpLabelValue = hw.sirup_pump
-    sirupValveLabelValue = hw.sirup_valve
-    waterPumpLabelValue = hw.water_pump
-    waterValveLabelValue = hw.water_valve
-    lcd = ""#hw.lcd
-    keypad = ""#hw.keypad
-    iscupPresentLabel = "No"#hw.reflex
+    hw = lemonator.lemonator( 4 )
+    waterLevel = hw.distance.read_mm()
+    heater = hw.heater
+    liquidTemperature = hw.temperature
+    color = hw.color
+    sirupPumpValue = hw.sirup_pump
+    sirupValveValue = hw.sirup_valve
+    waterPumpValue = hw.water_pump
+    waterValveValue = hw.water_valve
+    #lcd = ""#hw.lcd
+    #keypad = ""#hw.keypad
+    iscupPresent = "No"#hw.reflex
     greenLed = hw.led_green
     yellowLed = hw.led_yellow
-    """
 
     #"""
     ## simulator variables
-    waterLevel = 0
-    liquidTemperature = 0
-    heater = "Off"
-    color = rgbColor(0, 0, 0)
-    sirupPumpValue = 0
-    sirupValveValue = 0
-    waterPumpValue = 0
-    waterValveValue = 0
-    iscupPresent = "No"
-    greenLed = "No"
-    yellowLed = "No"
+    #waterLevel = 0
+    #liquidTemperature = 0
+    #heater = "Off"
+    #color = rgbColor(0, 0, 0)
+    #sirupPumpValue = 0
+    #sirupValveValue = 0
+    #waterPumpValue = 0
+    #waterValveValue = 0
+    #iscupPresent = "No"
+    #greenLed = "No"
+    #yellowLed = "No"
     lcd = "Plz put cup in machine\nand specify an amount (A and B keys)"
     #"""
 
@@ -73,16 +71,16 @@ class simulatorGui():
         self.levelSensorLabel.pack()
 
         ## Label for heather
-        self.heaterLabel = Label(self.gui.master, text="Heather: {}".format(self.heater))
-        # self.heaterLabel.pack()
+        self.heaterLabel = Label(self.gui.master, text="Heater: {}".format(self.heater))
+        self.heaterLabel.pack()
 
         ## Label for liquid temperature
         self.liquidLabel = Label(self.gui.master, text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
-        # self.liquidLabel.pack()
+        self.liquidLabel.pack()
 
         ## Label for color sensor
         self.colorSensorLabel = Label(self.gui.master, text="Color Sensor: {}".format(self.color))
-        # self.colorSensorLabel.pack()
+        self.colorSensorLabel.pack()
 
         ## Label for sirup pump
         self.sirupPumpLabel = Label(self.gui.master, text="Sirup Pump: {}".format(self.sirupPumpValue))
@@ -176,8 +174,8 @@ class simulatorGui():
 
         ## Update labels
         self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.waterLevel))
-        self.liquidLabel.config(text="Liquid Temperature: {} celsius".format(self.liquidTemperature))
-        self.heaterLabel.config(text="Heather: {} celsius".format(self.heater))
+        self.liquidLabel.config(text="Liquid Temperature: {} celsius".format(self.liquidTemperature.read_mc()))
+        self.heaterLabel.config(text="Heater: {}".format(self.heater))
         self.colorSensorLabel.config(text="Color Sensor: {}".format(self.color))
         self.sirupPumpLabel.config(text="Sirup Pump: {}".format(self.sirupPumpValue))
         self.sirupValveLabel.config(text="Sirup Valve: {}".format(self.sirupValveValue))

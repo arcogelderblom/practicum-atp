@@ -13,7 +13,11 @@ PYBIND11_MODULE( lemonator, m ) {
       .value( "unbuffered", hwlib::buffering::unbuffered )
       .value( "buffered", hwlib::buffering::buffered )
       .export_values();
-
+    
+   py::class_< sensor_proxy >( m, "sensor_proxy" ) 
+      .def( "read_mm", &sensor_proxy::read_mm, "")
+      .def( "read_mc", &sensor_proxy::read_mc, "");
+         
    py::class_< output_proxy >( m, "output_proxy" ) 
       .def( "set", &output_proxy::set, "",
          py::arg("v"), py::arg("buffering") = hwlib::buffering::unbuffered );
@@ -24,13 +28,13 @@ PYBIND11_MODULE( lemonator, m ) {
       
       
       //variables
-      .def_readonly( "lcd", &lemonator_proxy::p_lcd )
-      .def_readonly( "keypad", &lemonator_proxy::p_keypad )
+      .def_readonly( "lcd", &lemonator_proxy::p_lcd ) 
+      .def_readonly( "keypad", &lemonator_proxy::p_keypad ) 
       .def_readonly( "distance", &lemonator_proxy::p_distance )
       .def_readonly( "color", &lemonator_proxy::p_color )
       .def_readonly( "temperature", &lemonator_proxy::p_temperature )
       .def_readonly( "reflex", &lemonator_proxy::p_reflex )
-      .def_readonly( "heather", &lemonator_proxy::p_heater )
+      .def_readonly( "heater", &lemonator_proxy::p_heater)
       .def_readonly( "sirup_pump", &lemonator_proxy::p_sirup_pump )
       .def_readonly( "sirup_valve", &lemonator_proxy::p_sirup_valve )
       .def_readonly( "water_pump", &lemonator_proxy::p_water_pump )
