@@ -17,7 +17,6 @@ PYBIND11_MODULE( lemonator, m ) {
    py::class_< sensor_proxy >( m, "sensor_proxy" ) 
       .def( "read_mm", &sensor_proxy::read_mm, "")
       .def( "read_mc", &sensor_proxy::read_mc, "")
-      //.def( "read_rgb", &sensor_proxy::read_rgb, "") We won't use this since it does not work in reallife
       .def( "getc", &sensor_proxy::getc, "")
       .def( "get", &sensor_proxy::get, "", py::arg("buffering") = hwlib::buffering::unbuffered);
    
