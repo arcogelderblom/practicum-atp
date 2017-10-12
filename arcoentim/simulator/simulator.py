@@ -32,4 +32,5 @@ class simulator():#Frame
 
     def updateValues(self):
         self.sim.updateLabels()
+        self.control.updateLabels()
         self.gui.master.after(1000, self.updateValues)
