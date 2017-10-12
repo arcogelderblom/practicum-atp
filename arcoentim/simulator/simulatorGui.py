@@ -1,6 +1,5 @@
 from tkinter import *
 import lemonatorLogger
-import lemonator
 import gui
 
 class simulatorGui():
@@ -9,17 +8,17 @@ class simulatorGui():
     log = lemonatorLogger.lemonatorLogger("log.txt")
 
     # Variables for amounts
-    userLemonadeValue = "0"
-    userWaterValue = "0"
-    userSelectLemonade = True # True = lemonade, False = water
-    userStartMixing = False
+    #userLemonadeValue = "0"
+    #userWaterValue = "0"
+    #userSelectLemonade = True # True = lemonade, False = water
+    #userStartMixing = False
 
-    def __init__(self, master=None):
+    def __init__(self):
         self.guiBase()
 
     def guiBase(self):
         ## Label for level sensor
-        self.levelSensorLabel = Label(self.userInterface.master, text="Level Sensor: {} ml".format(self.hwInterface.read_mm("fluidLevel")))
+        self.levelSensorLabel = Label(self.userInterface.master, text="Level Sensor: {} ml".format(self.hwInterface.read_mm()))
         self.levelSensorLabel.pack()
         
         ## Label for heater
@@ -27,27 +26,27 @@ class simulatorGui():
         #self.heaterLabel.pack()
 
         ## Label for liquid temperature
-        self.liquidLabel = Label(self.userInterface.master, text="Liquid Temperature: {} celsius".format(self.hwInterface.read_mc("liquidTemperature")))
-        self.liquidLabel.pack()
+        #self.liquidLabel = Label(self.userInterface.master, text="Liquid Temperature: {} celsius".format(self.hwInterface.read_mc("liquidTemperature")))
+        #self.liquidLabel.pack()
 
         ## Label for sirup pump
-        #self.sirupPumpLabel = Label(self.gui.master, text="Sirup Pump: {}".format(self.sirupPumpValue))
-        #self.sirupPumpLabel.pack()
+        self.sirupPumpLabel = Label(self.userInterface.master, text="Sirup Pump: {}".format(self.hwInterface.get("sirupPump")))
+        self.sirupPumpLabel.pack()
 
         ## Label for sirup valve
-        #self.sirupValveLabel = Label(self.gui.master, text="Sirup Valve: {}".format(self.sirupValveValue))
-        #self.sirupValveLabel.pack()
+        self.sirupValveLabel = Label(self.userInterface.master, text="Sirup Valve: {}".format(self.hwInterface.get("sirupValve")))
+        self.sirupValveLabel.pack()
 
         ## Label for water pump
-        #self.waterPumpLabel = Label(self.gui.master, text="Water Pump: {}".format(self.waterPumpValue))
-        #self.waterPumpLabel.pack()
+        self.waterPumpLabel = Label(self.userInterface.master, text="Water Pump: {}".format(self.hwInterface.get("waterPump")))
+        self.waterPumpLabel.pack()
 
         ## Label for water valve
-        #self.waterValveLabel = Label(self.gui.master, text="Water Valve: {}".format(self.waterValveValue))
-        #self.waterValveLabel.pack()
+        self.waterValveLabel = Label(self.userInterface.master, text="Water Valve: {}".format(self.hwInterface.get("waterValve")))
+        self.waterValveLabel.pack()
 
         ## Cup present label
-        self.cupPresentLabel = Label(self.userInterface.master, text="Is a cup present: {}".format(self.hwInterface.read_mc("isCupPresent")))
+        self.cupPresentLabel = Label(self.userInterface.master, text="Is a cup present: {}".format(self.hwInterface.get("isCupPresent")))
         self.cupPresentLabel.pack()
 
         ## Green led
@@ -59,8 +58,8 @@ class simulatorGui():
         #self.yellowLedLabel.pack()
 
         ## LCD
-        #self.lcdValueLabel = Label(self.gui.master, text="LCD Value: {}".format(self.lcd))
-        #self.lcdValueLabel.place(x=100, y=200)
+        self.lcdValueLabel = Label(self.userInterface.master, text="LCD Value: {}".format(self.hwInterface.getString()))
+        self.lcdValueLabel.place(x=100, y=200)
 
         Button(self.userInterface.master, text="1", command=lambda: self.keypadButton(1)).place(x=160, y=300)
         Button(self.userInterface.master, text="2", command=lambda: self.keypadButton(2)).place(x=210, y=300)
@@ -90,7 +89,39 @@ class simulatorGui():
 
 
     def updateLabels(self):
+        ## If the pumps are open add something to the mm value (should become substract)
+        if self.hwInterface.get("sirupPump") or self.hwInterface.get("waterPump"):
+            self.hwInterface.write_mm(self.hwInterface.read_mm() + 1)
+
+        ## Update labels
+        self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_mm()))
+        #self.liquidLabel.config(text="Liquid Temperature: {} celsius".format(self.hwInterface.read_mc("liquidTemperature")))
+        #self.heaterLabel.config(text="Heater: {}".format(self.heater))
+        self.sirupPumpLabel.config(text="Sirup Pump: {}".format(self.hwInterface.get("sirupPump")))
+        self.sirupValveLabel.config(text="Sirup Valve: {}".format(self.hwInterface.get("sirupValve")))
+        self.waterPumpLabel.config(text="Water Pump: {}".format(self.hwInterface.get("waterPump")))
+        self.waterValveLabel.config(text="Water Valve: {}".format(self.hwInterface.get("waterValve")))
+        self.cupPresentLabel.config(text="Is a cup present: {}".format(self.hwInterface.get("isCupPresent")))
+        #self.greenLedLabel.config(text="Is green led on: {}".format(self.greenLed))
+        #self.yellowLedLabel.config(text="Is yellow led on: {}".format(self.yellowLed))
+        self.lcdValueLabel.config(text="LCD Value: {}".format(self.hwInterface.getString()))
+
         """
+        ## Log updated variables
+        self.log.addSensorInfoLine("waterlevelSensorLabel", self.waterLevel)
+        self.log.addSensorInfoLine("Liquid temperature", self.liquidTemperature)
+        self.log.addSensorInfoLine("heater", self.heater)
+        self.log.addSensorInfoLine("sirupPumpLabelValue", self.sirupPumpValue)
+        self.log.addSensorInfoLine("sirupValveLabelValue", self.sirupValveValue)
+        self.log.addSensorInfoLine("waterPumpLabelValue", self.waterPumpValue)
+        self.log.addSensorInfoLine("waterValveLabelValue", self.waterValveValue)
+        self.log.addSensorInfoLine("is cup present", self.iscupPresent)
+        self.log.addSensorInfoLine("green led on", self.greenLed)
+        self.log.addSensorInfoLine("yellow led on", self.yellowLed)
+        self.log.addSensorInfoLine("lcd", self.lcd)"""
+
+
+"""
         ## Change variables
         if self.iscupPresent == "No":
             self.sirupPumpValue = 0
@@ -141,28 +172,3 @@ class simulatorGui():
                     self.lcd += "\nChanging water now"
 
 		"""
-        ## Update labels
-        self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_mm("fluidLevel")))
-        self.liquidLabel.config(text="Liquid Temperature: {} celsius".format(self.hwInterface.read_mc("liquidTemperature")))
-        #self.heaterLabel.config(text="Heater: {}".format(self.heater))
-        #self.sirupPumpLabel.config(text="Sirup Pump: {}".format(self.sirupPumpValue))
-        #self.sirupValveLabel.config(text="Sirup Valve: {}".format(self.sirupValveValue))
-        #self.waterPumpLabel.config(text="Water Pump: {}".format(self.waterPumpValue))
-        #self.waterValveLabel.config(text="Water Valve: {}".format(self.waterValveValue))
-        self.cupPresentLabel.config(text="Is a cup present: {}".format(self.hwInterface.get("isCupPresent")))
-        #self.greenLedLabel.config(text="Is green led on: {}".format(self.greenLed))
-        #self.yellowLedLabel.config(text="Is yellow led on: {}".format(self.yellowLed))
-        #self.lcdValueLabel.config(text="LCD Value: {}".format(self.lcd))
-        """
-        ## Log updated variables
-        self.log.addSensorInfoLine("waterlevelSensorLabel", self.waterLevel)
-        self.log.addSensorInfoLine("Liquid temperature", self.liquidTemperature)
-        self.log.addSensorInfoLine("heater", self.heater)
-        self.log.addSensorInfoLine("sirupPumpLabelValue", self.sirupPumpValue)
-        self.log.addSensorInfoLine("sirupValveLabelValue", self.sirupValveValue)
-        self.log.addSensorInfoLine("waterPumpLabelValue", self.waterPumpValue)
-        self.log.addSensorInfoLine("waterValveLabelValue", self.waterValveValue)
-        self.log.addSensorInfoLine("is cup present", self.iscupPresent)
-        self.log.addSensorInfoLine("green led on", self.greenLed)
-        self.log.addSensorInfoLine("yellow led on", self.yellowLed)
-        self.log.addSensorInfoLine("lcd", self.lcd)"""

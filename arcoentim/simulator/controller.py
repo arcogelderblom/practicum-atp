@@ -14,6 +14,8 @@ class controller():
     userStartMixing = False
 
     def keypadButton(self, buttonValue):
+        if buttonValue != "":
+            print("Keypad value: ", buttonValue)
         try:
             ## needs to be changed to setc() so the chars can be retreived with getc()
             correspondingActions = {1: lambda: self.assignDrinkValues("1"),
@@ -26,8 +28,8 @@ class controller():
                                     8: lambda: self.assignDrinkValues("8"),
                                     9: lambda: self.assignDrinkValues("9"),
                                     0: lambda: self.assignDrinkValues("0"),
-                                    '*': lambda: self.__setattr__("iscupPresent", "No"), # Take the cup away from the simulator
-                                    '#': lambda: self.__setattr__("iscupPresent", "Yes"), # Put the cup back into the simulator
+                                    '*': lambda: self.hwInterface.set("isCupPresent", False), # Take the cup away from the simulator
+                                    '#': lambda: self.hwInterface.set("isCupPresent", True), # Put the cup back into the simulator
                                     'A': lambda: self.__setattr__("userSelectLemonade", False), # Select water amount
                                     'B': lambda: self.__setattr__("userSelectLemonade", True), # Select lemonade amount
                                     'C': lambda: self.__setattr__("userStartMixing", True), # Start mixing
@@ -36,7 +38,8 @@ class controller():
             ## Execute watever the lambda function needs to
             correspondingActions[buttonValue]()
         except KeyError as err:
-            print(str(err))
+            pass
+            #print(str(err))
 
     def assignDrinkValues(self, value):
         if self.userSelectLemonade:
@@ -47,7 +50,8 @@ class controller():
     def updateLabels(self):
         ## Change variables
         self.hwInterface.emptyLcd()
-        self.keypadButton(self.hwInterface.getc("keypad"))
+        self.keypadButton(self.hwInterface.getCKeypad("keypad"))
+
 
         ## Check if a cup is in the machine
         if not self.hwInterface.get("isCupPresent"):
@@ -62,7 +66,7 @@ class controller():
             if self.userStartMixing:
                 self.hwInterface.putString("Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 if self.hwInterface.read_mm() < int(self.userLemonadeValue):
-                    self.hwInterface.putString("lcd", "\nNow pouring: lemonade")
+                    self.hwInterface.putString("\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
                     self.hwInterface.set("sirupValve", 0)
                     self.hwInterface.set("waterPump", 0)
@@ -76,7 +80,6 @@ class controller():
                     self.hwInterface.putString("\nNow pouring: water")
 
                 else:
-                    self.hwInterface.putString("Drink has been poured")
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 0)

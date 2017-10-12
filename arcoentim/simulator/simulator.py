@@ -3,8 +3,8 @@ import gui
 import simulatorGui
 from tkinter import *
 
-class simulator():#Frame
-    plant = None #is misschien het sensoren gedeelte dus hardware variables en zo
+class simulator():
+    #hwInterface = None
     control = None
     sim = None
 
@@ -16,6 +16,9 @@ class simulator():#Frame
     def guiBase(self):
         ## Create gui
         self.gui = gui.gui()
+
+        ##  Add the hwInterface
+        #self.hwInterface = gui.sharedVariables()
 
         ## Add simulator gui items
         self.sim = simulatorGui.simulatorGui()

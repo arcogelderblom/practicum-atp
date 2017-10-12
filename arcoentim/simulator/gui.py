@@ -29,30 +29,33 @@ class sharedVariables():
     ## Bools
     def set(self, variable, newValue):
         if sharedVariables.usingHardware:
-            sharedVariables.__getattribute__(self, variable).set(newValue)
+            sharedVariables.__getattribute__(sharedVariables, variable).set(newValue)
         else:
-            sharedVariables.__setattr__(self, variable, newValue)
+            exec("sharedVariables." + str(variable) + ' = ' + str(newValue))
 
     def get(self, variable):
-        if sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(self, variable).get()
-        else:
-            return sharedVariables.__getattribute__(self, variable)
+        if not sharedVariables.usingHardware:
+            return sharedVariables.__getattribute__(sharedVariables, variable)
+
+
 
     ## Keypad
-    def getc(self, variable):
+    def getCKeypad(self, variable):
         if sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(self, variable).getc()
+            return sharedVariables.__getattribute__(sharedVariables, variable).getc()
         else:
-            return sharedVariables.__getattribute__(self, variable)
+            char = sharedVariables.keypad
+            sharedVariables.keypad = ""
+            return char
+
 
     def putCKeypad(self, value):
-        print("Putting keypad char in there: ", value)
         ## This function cannot be used on the hardware variables
         if not sharedVariables.usingHardware:
             sharedVariables.keypad = value
 
     ## Lcd
+
     def putc(self, value):
         if sharedVariables.usingHardware:
             sharedVariables.lcd.putc(value)
@@ -70,21 +73,30 @@ class sharedVariables():
         else:
             sharedVariables.lcd = ""
 
+    def getString(self):
+        if not sharedVariables.usingHardware:
+            return sharedVariables.lcd
+
     ## Sensor
-    def read_mm(self, variable):
+    def read_mm(self):
         if sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(self, variable).read_mm()
+            return sharedVariables.fluidLevel.read_mm()
         else:
-            return sharedVariables.__getattribute__(self, variable)
+            return sharedVariables.fluidLevel
 
-    def read_mc(self, variable):
-        if sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(self, variable).read_mc()
-        else:
-            return sharedVariables.__getattribute__(self, variable)
+    def write_mm(self, newValue):
+        ## This function cannot be used on the hardware variables
+        if not sharedVariables.usingHardware:
+            sharedVariables.fluidLevel = newValue
 
-    def read_rgb(self):
-        pass
+    #def read_mc(self, variable):
+    #    if sharedVariables.usingHardware:
+    #        return sharedVariables.__getattribute__(self, variable).read_mc()
+    #    else:
+    #        return sharedVariables.__getattribute__(self, variable)
+
+    #def read_rgb(self):
+    #    return 0
 
 
 class gui(Frame):
