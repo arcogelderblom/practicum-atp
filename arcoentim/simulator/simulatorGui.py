@@ -80,26 +80,7 @@ class simulatorGui():
         Button(self.userInterface.master, text="D", command=lambda: self.keypadButton('D')).place(x=310, y=390)
 
     def keypadButton(self, buttonValue):
-        ## needs to be changed to setc() so the chars can be retreived with getc()
-        correspondingActions = {1: lambda: self.assignDrinkValues("1"),
-                                2: lambda: self.assignDrinkValues("2"),
-                                3: lambda: self.assignDrinkValues("3"),
-                                4: lambda: self.assignDrinkValues("4"),
-                                5: lambda: self.assignDrinkValues("5"),
-                                6: lambda: self.assignDrinkValues("6"),
-                                7: lambda: self.assignDrinkValues("7"),
-                                8: lambda: self.assignDrinkValues("8"),
-                                9: lambda: self.assignDrinkValues("9"),
-                                0: lambda: self.assignDrinkValues("0"),
-                                '*': lambda: setattr(self.sim,"iscupPresent", "No"), # Take the cup away from the simulator
-                                '#': lambda: setattr(self.sim,"iscupPresent", "Yes"), # Put the cup back into the simulator
-                                'A': lambda: setattr(self.sim,"userSelectLemonade", False), # Select water amount
-                                'B': lambda: setattr(self.sim,"userSelectLemonade", True), # Select lemonade amount
-                                'C': lambda: setattr(self.sim,"userStartMixing", True), # Start mixing
-                                'D': lambda: print('D')}
-
-        ## Execute watever the lambda function needs to
-        correspondingActions[buttonValue]()
+        self.hwInterface.putCKeypad(buttonValue)
 
     def assignDrinkValues(self, value):
         if self.userSelectLemonade:

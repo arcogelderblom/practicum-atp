@@ -46,6 +46,12 @@ class sharedVariables():
         else:
             return sharedVariables.__getattribute__(self, variable)
 
+    def putCKeypad(self, value):
+        print("Putting keypad char in there: ", value)
+        ## This function cannot be used on the hardware variables
+        if not sharedVariables.usingHardware:
+            sharedVariables.keypad = value
+
     ## Lcd
     def putc(self, value):
         if sharedVariables.usingHardware:
