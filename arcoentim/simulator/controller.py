@@ -14,7 +14,7 @@ class controller():
     userStartMixing = False
 
     def keypadButton(self, buttonValue):
-        if buttonValue != "":
+        try:
             ## needs to be changed to setc() so the chars can be retreived with getc()
             correspondingActions = {1: lambda: self.assignDrinkValues("1"),
                                     2: lambda: self.assignDrinkValues("2"),
@@ -35,6 +35,8 @@ class controller():
 
             ## Execute watever the lambda function needs to
             correspondingActions[buttonValue]()
+        except KeyError as err:
+            print(str(err))
 
     def assignDrinkValues(self, value):
         if self.userSelectLemonade:
@@ -53,14 +55,14 @@ class controller():
             self.hwInterface.set("sirupValve", 1)
             self.hwInterface.set("waterPump", 0)
             self.hwInterface.set("waterValve", 1)
-            self.hwInterface.putSting("lcd", "Plz put a cup in the machine")
+            self.hwInterface.putString("Plz put a cup in the machine")
 
         ## If the cup is present start checking some other things
         elif self.hwInterface.get("isCupPresent"):
             if self.userStartMixing:
-                self.hwInterface.putSting("lcd", "Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
+                self.hwInterface.putString("Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 if self.hwInterface.read_mm() < int(self.userLemonadeValue):
-                    self.hwInterface.putSting("lcd", "\nNow pouring: lemonade")
+                    self.hwInterface.putString("lcd", "\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
                     self.hwInterface.set("sirupValve", 0)
                     self.hwInterface.set("waterPump", 0)
@@ -71,10 +73,10 @@ class controller():
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
                     self.hwInterface.set("waterValve", 0)
-                    self.hwInterface.putSting("lcd", "\nNow pouring: water")
+                    self.hwInterface.putString("\nNow pouring: water")
 
                 else:
-                    self.hwInterface.putString("lcd", "Drink has been poured")
+                    self.hwInterface.putString("Drink has been poured")
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 0)
@@ -84,12 +86,12 @@ class controller():
                     self.userLemonadeValue = "0"
 
             elif not self.userStartMixing:
-                self.hwInterface.putSting("lcd", "Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
+                self.hwInterface.putString("Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 self.hwInterface.set("sirupPump", 0)
                 self.hwInterface.set("sirupValve", 1)
                 self.hwInterface.set("waterPump", 0)
                 self.hwInterface.set("waterValve", 1)
                 if self.userSelectLemonade:
-                    self.hwInterface.putSting("lcd", "\nChanging lemonade now")
+                    self.hwInterface.putString("\nChanging lemonade now")
                 else:
-                    self.hwInterface.putSting("lcd", "\nChanging water now")
+                    self.hwInterface.putString("\nChanging water now")
