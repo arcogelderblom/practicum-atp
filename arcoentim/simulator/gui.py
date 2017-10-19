@@ -54,8 +54,8 @@ class sharedVariables():
         if not sharedVariables.usingHardware:
             sharedVariables.keypad = value
 
-    ## Lcd
 
+    ## Lcd
     def putc(self, value):
         if sharedVariables.usingHardware:
             sharedVariables.lcd.putc(value)

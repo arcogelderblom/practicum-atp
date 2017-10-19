@@ -108,14 +108,14 @@ class simulatorGui():
 
 
         ## Log updated variables
-        self.log.addSensorInfoLine("waterlevelSensorLabel", self.waterLevel)
+        self.log.addSensorInfoLine("waterlevelSensor", self.hwInterface.read_mm())
         #self.log.addSensorInfoLine("Liquid temperature", self.liquidTemperature)
         #self.log.addSensorInfoLine("heater", self.heater)
-        self.log.addSensorInfoLine("sirupPumpLabelValue", self.sirupPumpValue)
-        self.log.addSensorInfoLine("sirupValveLabelValue", self.sirupValveValue)
-        self.log.addSensorInfoLine("waterPumpLabelValue", self.waterPumpValue)
-        self.log.addSensorInfoLine("waterValveLabelValue", self.waterValveValue)
-        self.log.addSensorInfoLine("is cup present", self.iscupPresent)
+        self.log.addSensorInfoLine("sirupPumpValue", self.hwInterface.get("sirupPump"))
+        self.log.addSensorInfoLine("sirupValveValue", self.hwInterface.get("sirupValve"))
+        self.log.addSensorInfoLine("waterPumpValue", self.hwInterface.get("waterPump"))
+        self.log.addSensorInfoLine("WaterValveValue", self.hwInterface.get("waterValve"))
+        self.log.addSensorInfoLine("Reflex", self.hwInterface.get("isCupPresent"))
         #self.log.addSensorInfoLine("green led on", self.greenLed)
         #self.log.addSensorInfoLine("yellow led on", self.yellowLed)
-        self.log.addSensorInfoLine("lcd", self.lcd)
+        self.log.addSensorInfoLine("lcd", self.hwInterface.getString())

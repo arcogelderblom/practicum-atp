@@ -14,10 +14,9 @@ class controller():
     userStartMixing = False
     originalDistance = 100
     originalDistanceSet = False
+    currentLevel = 0
 
     def keypadButton(self, buttonValue):
-        if buttonValue != "":
-            print("Keypad value: ", buttonValue)
         try:
             ## needs to be changed to setc() so the chars can be retreived with getc()
             correspondingActions = {1: lambda: self.assignDrinkValues("1"),
@@ -67,20 +66,20 @@ class controller():
         elif self.hwInterface.get("isCupPresent"):
             if self.userStartMixing:
                 if self.originalDistanceSet:
-                    currentLevel = self.originalDistance - self.hwInterface.read_mm()
+                    self.currentLevel = self.originalDistance - self.hwInterface.read_mm()
                 else:
                     self.originalDistance = self.hwInterface.read_mm()
                     self.originalDistanceSet = True
 
                 self.hwInterface.putString("Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
-                if currentLevel < int(self.userLemonadeValue):
+                if self.currentLevel < int(self.userLemonadeValue):
                     self.hwInterface.putString("\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
                     self.hwInterface.set("sirupValve", 0)
                     self.hwInterface.set("waterPump", 0)
                     self.hwInterface.set("waterValve", 1)
 
-                elif currentLevel >= int(self.userLemonadeValue) and self.hwInterface.read_mm() < int(self.userWaterValue) + int(self.userLemonadeValue):
+                elif self.currentLevel >= int(self.userLemonadeValue) and self.currentLevel < int(self.userWaterValue) + int(self.userLemonadeValue):
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
@@ -97,6 +96,7 @@ class controller():
                     self.userLemonadeValue = "0"
                     self.hwInterface.write_mm(100)
                     self.originalDistanceSet = False
+                    self.currentLevel = 0
 
             elif not self.userStartMixing:
                 self.hwInterface.putString("Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
