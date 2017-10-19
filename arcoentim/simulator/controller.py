@@ -12,6 +12,8 @@ class controller():
     userWaterValue = "0"
     userSelectLemonade = True  # True = lemonade, False = water
     userStartMixing = False
+    originalDistance = 100
+    originalDistanceSet = False
 
     def keypadButton(self, buttonValue):
         if buttonValue != "":
@@ -64,15 +66,21 @@ class controller():
         ## If the cup is present start checking some other things
         elif self.hwInterface.get("isCupPresent"):
             if self.userStartMixing:
+                if self.originalDistanceSet:
+                    currentLevel = self.originalDistance - self.hwInterface.read_mm()
+                else:
+                    self.originalDistance = self.hwInterface.read_mm()
+                    self.originalDistanceSet = True
+
                 self.hwInterface.putString("Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
-                if self.hwInterface.read_mm() < int(self.userLemonadeValue):
+                if currentLevel < int(self.userLemonadeValue):
                     self.hwInterface.putString("\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
                     self.hwInterface.set("sirupValve", 0)
                     self.hwInterface.set("waterPump", 0)
                     self.hwInterface.set("waterValve", 1)
 
-                elif self.hwInterface.read_mm() >= int(self.userLemonadeValue) and self.hwInterface.read_mm() < int(self.userWaterValue) + int(self.userLemonadeValue):
+                elif currentLevel >= int(self.userLemonadeValue) and self.hwInterface.read_mm() < int(self.userWaterValue) + int(self.userLemonadeValue):
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
@@ -87,6 +95,8 @@ class controller():
                     self.userStartMixing = False
                     self.userWaterValue = "0"
                     self.userLemonadeValue = "0"
+                    self.hwInterface.write_mm(100)
+                    self.originalDistanceSet = False
 
             elif not self.userStartMixing:
                 self.hwInterface.putString("Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))

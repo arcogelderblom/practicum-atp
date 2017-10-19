@@ -16,7 +16,7 @@ class sharedVariables():
         keypad = hw.keypad
         lcd = hw.lcd
     else:
-        fluidLevel = 0
+        fluidLevel = 100
         liquidTemperature = 10
         isCupPresent = False
         sirupPump = 0

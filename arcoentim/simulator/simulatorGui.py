@@ -91,7 +91,7 @@ class simulatorGui():
     def updateLabels(self):
         ## If the pumps are open add something to the mm value (should become substract)
         if self.hwInterface.get("sirupPump") or self.hwInterface.get("waterPump"):
-            self.hwInterface.write_mm(self.hwInterface.read_mm() + 1)
+            self.hwInterface.write_mm(self.hwInterface.read_mm() - 1)
 
         ## Update labels
         self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_mm()))
@@ -106,69 +106,16 @@ class simulatorGui():
         #self.yellowLedLabel.config(text="Is yellow led on: {}".format(self.yellowLed))
         self.lcdValueLabel.config(text="LCD Value: {}".format(self.hwInterface.getString()))
 
-        """
+
         ## Log updated variables
         self.log.addSensorInfoLine("waterlevelSensorLabel", self.waterLevel)
-        self.log.addSensorInfoLine("Liquid temperature", self.liquidTemperature)
-        self.log.addSensorInfoLine("heater", self.heater)
+        #self.log.addSensorInfoLine("Liquid temperature", self.liquidTemperature)
+        #self.log.addSensorInfoLine("heater", self.heater)
         self.log.addSensorInfoLine("sirupPumpLabelValue", self.sirupPumpValue)
         self.log.addSensorInfoLine("sirupValveLabelValue", self.sirupValveValue)
         self.log.addSensorInfoLine("waterPumpLabelValue", self.waterPumpValue)
         self.log.addSensorInfoLine("waterValveLabelValue", self.waterValveValue)
         self.log.addSensorInfoLine("is cup present", self.iscupPresent)
-        self.log.addSensorInfoLine("green led on", self.greenLed)
-        self.log.addSensorInfoLine("yellow led on", self.yellowLed)
-        self.log.addSensorInfoLine("lcd", self.lcd)"""
-
-
-"""
-        ## Change variables
-        if self.iscupPresent == "No":
-            self.sirupPumpValue = 0
-            self.sirupValveValue = 1
-            self.waterPumpValue = 0
-            self.waterValveValue = 1
-            self.lcd = "Plz put a cup in the machine"
-            #self.hw.lcd.set("Plz put a cup in the machine")
-            #self.lcd = self.hw.lcd
-        elif self.iscupPresent == "Yes":
-            if self.userStartMixing:
-                self.lcd = "Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue))
-                self.waterLevel += 1
-                if self.waterLevel < int(self.userLemonadeValue):
-                    self.lcd += "\nNow pouring: lemonade"
-                    self.sirupValveValue = 0
-                    self.sirupPumpValue = 1
-                    self.waterPumpValue = 0
-                    self.waterValveValue = 1
-
-                elif self.waterLevel >= int(self.userLemonadeValue) and self.waterLevel < int(self.userWaterValue)+int(self.userLemonadeValue):
-                    self.sirupValveValue = 1
-                    self.sirupPumpValue = 0
-                    self.waterPumpValue = 1
-                    self.waterValveValue = 0
-                    self.lcd += "\nNow pouring: water"
-                else:
-                    self.lcd = "Drink has been poured"
-                    self.sirupValveValue = 1
-                    self.sirupPumpValue = 0
-                    self.waterPumpValue = 0
-                    self.waterValveValue = 1
-                    self.userStartMixing = False
-                    self.userWaterValue = "0"
-                    self.userLemonadeValue = "0"
-                    #changin weglaten
-
-            elif not self.userStartMixing:
-                self.lcd = "Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue))
-                self.sirupPumpValue = 0
-                self.sirupValveValue = 1
-                self.waterPumpValue = 0
-                self.waterValveValue = 1
-                self.waterLevel = 0
-                if self.userSelectLemonade:
-                    self.lcd += "\nChanging lemonade now"
-                else:
-                    self.lcd += "\nChanging water now"
-
-		"""
+        #self.log.addSensorInfoLine("green led on", self.greenLed)
+        #self.log.addSensorInfoLine("yellow led on", self.yellowLed)
+        self.log.addSensorInfoLine("lcd", self.lcd)
