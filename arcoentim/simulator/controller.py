@@ -1,5 +1,5 @@
-from tkinter import *
 import gui
+import doctest
 
 class controller():
     ## Control variables
@@ -44,6 +44,23 @@ class controller():
             self.userLemonadeValue += value
         else:
             self.userWaterValue += value
+
+    def pumpTestIfOn(self, amountWater):
+        """ Test if the pump is turining on if you select a water amount and notify the system that you want it to start
+            creating a drink.
+
+            >>> pumpTestIfOn(10)
+            True
+            >>> pumpTestIfOn(0)
+            False
+
+        """
+        self.userWaterValue = str(amountWater)
+        self.userStartMixing = True
+        self.hwInterface.set("isCupPresent", True)
+        self.updateLabels()
+        return self.hwInterface.get("waterPump")
+
 
     def updateLabels(self):
         ## Change variables
@@ -102,3 +119,5 @@ class controller():
                     self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Lemonade")
                 else:
                     self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Water")
+
+doctest.testmod()
