@@ -5,11 +5,11 @@ class sharedVariables():
     usingHardware = False
 
     if usingHardware:
-        hw = lemonator.lemonator(2)
+        hw = lemonator.lemonator(3)
         fluidLevel = hw.distance
         liquidTemperature = hw.temperature
         isCupPresent = hw.reflex
-        sirupPump = hw.sirup_pump
+        sirupPump = hw.sirup_pumps
         sirupValve = hw.sirup_valve
         waterPump = hw.water_pump
         waterValve = hw.water_valve
@@ -24,7 +24,7 @@ class sharedVariables():
         waterPump = 0
         waterValve = 1
         keypad = ""
-        lcd = "Nothing to report"
+    lcdString = "Nothing to report"
 
     ## Bools
     def set(self, variable, newValue):
@@ -34,8 +34,10 @@ class sharedVariables():
             exec("sharedVariables." + str(variable) + ' = ' + str(newValue))
 
     def get(self, variable):
-        if not sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(sharedVariables, variable)
+        if sharedVariables.usingHardware:
+            if variable == "isCupPresent":
+                return sharedVariables.__getattribute__(sharedVariables, variable).get()
+        return sharedVariables.__getattribute__(sharedVariables, variable)
 
 
 
@@ -60,22 +62,25 @@ class sharedVariables():
         if sharedVariables.usingHardware:
             sharedVariables.lcd.putc(value)
         else:
-            sharedVariables.lcd += value
+            sharedVariables.lcdString += value
 
     def putString(self, newValue):
-        for c in newValue:
-            self.putc(c)
+        if newValue != sharedVariables.lcdString:
+            self.emptyLcd()
+            sharedVariables.lcdString = newValue
+            if sharedVariables.usingHardware:
+                for c in newValue:
+                    sharedVariables.lcd.putc(c) #self.putc(c)
 
     def emptyLcd(self):
         if sharedVariables.usingHardware:
             self.putc("\r")
             self.putc("\f")
-        else:
-            sharedVariables.lcd = ""
+        sharedVariables.lcdString = ""
 
     def getString(self):
         if not sharedVariables.usingHardware:
-            return sharedVariables.lcd
+            return sharedVariables.lcdString
 
     ## Sensor
     def read_mm(self):
@@ -88,16 +93,6 @@ class sharedVariables():
         ## This function cannot be used on the hardware variables
         if not sharedVariables.usingHardware:
             sharedVariables.fluidLevel = newValue
-
-    #def read_mc(self, variable):
-    #    if sharedVariables.usingHardware:
-    #        return sharedVariables.__getattribute__(self, variable).read_mc()
-    #    else:
-    #        return sharedVariables.__getattribute__(self, variable)
-
-    #def read_rgb(self):
-    #    return 0
-
 
 class gui(Frame):
     master = None

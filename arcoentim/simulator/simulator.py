@@ -17,9 +17,6 @@ class simulator():
         ## Create gui
         self.gui = gui.gui()
 
-        ##  Add the hwInterface
-        #self.hwInterface = gui.sharedVariables()
-
         ## Add simulator gui items
         self.sim = simulatorGui.simulatorGui()
 
@@ -36,4 +33,4 @@ class simulator():
     def updateValues(self):
         self.sim.updateLabels()
         self.control.updateLabels()
-        self.gui.master.after(1000, self.updateValues)
+        self.gui.master.after(100, self.updateValues)
