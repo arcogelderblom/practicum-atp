@@ -19,16 +19,16 @@ class controller():
     def keypadButton(self, buttonValue):
         try:
             ## needs to be changed to setc() so the chars can be retreived with getc()
-            correspondingActions = {1: lambda: self.assignDrinkValues("1"),
-                                    2: lambda: self.assignDrinkValues("2"),
-                                    3: lambda: self.assignDrinkValues("3"),
-                                    4: lambda: self.assignDrinkValues("4"),
-                                    5: lambda: self.assignDrinkValues("5"),
-                                    6: lambda: self.assignDrinkValues("6"),
-                                    7: lambda: self.assignDrinkValues("7"),
-                                    8: lambda: self.assignDrinkValues("8"),
-                                    9: lambda: self.assignDrinkValues("9"),
-                                    0: lambda: self.assignDrinkValues("0"),
+            correspondingActions = {"1": lambda: self.assignDrinkValues("1"),
+                                    "2": lambda: self.assignDrinkValues("2"),
+                                    "3": lambda: self.assignDrinkValues("3"),
+                                    "4": lambda: self.assignDrinkValues("4"),
+                                    "5": lambda: self.assignDrinkValues("5"),
+                                    "6": lambda: self.assignDrinkValues("6"),
+                                    "7": lambda: self.assignDrinkValues("7"),
+                                    "8": lambda: self.assignDrinkValues("8"),
+                                    "9": lambda: self.assignDrinkValues("9"),
+                                    "0": lambda: self.assignDrinkValues("0"),
                                     '*': lambda: self.hwInterface.set("isCupPresent", False), # Take the cup away from the simulator
                                     '#': lambda: self.hwInterface.set("isCupPresent", True), # Put the cup back into the simulator
                                     'A': lambda: self.__setattr__("userSelectLemonade", False), # Select water amount
@@ -40,7 +40,6 @@ class controller():
             correspondingActions[buttonValue]()
         except KeyError as err:
             pass
-            #print(str(err))
 
     def assignDrinkValues(self, value):
         if self.userSelectLemonade:
@@ -50,9 +49,7 @@ class controller():
 
     def updateLabels(self):
         ## Change variables
-        self.hwInterface.emptyLcd()
         self.keypadButton(self.hwInterface.getCKeypad("keypad"))
-
 
         ## Check if a cup is in the machine
         if not self.hwInterface.get("isCupPresent"):
@@ -60,7 +57,7 @@ class controller():
             self.hwInterface.set("sirupValve", 1)
             self.hwInterface.set("waterPump", 0)
             self.hwInterface.set("waterValve", 1)
-            self.hwInterface.putString("Plz put a cup in the machine")
+            self.hwInterface.putString("Put cup in machine")
 
         ## If the cup is present start checking some other things
         elif self.hwInterface.get("isCupPresent"):
@@ -71,7 +68,7 @@ class controller():
                     self.originalDistance = self.hwInterface.read_mm()
                     self.originalDistanceSet = True
 
-                self.hwInterface.putString("Pouring your drink\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
+                self.hwInterface.putString("Pouring your drink\nWater: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 if self.currentLevel < int(self.userLemonadeValue):
                     self.hwInterface.putString("\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
@@ -99,12 +96,11 @@ class controller():
                     self.currentLevel = 0
 
             elif not self.userStartMixing:
-                self.hwInterface.putString("Waiting for start(C) or values(A, B)\nSelected amounts Water: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 self.hwInterface.set("sirupPump", 0)
                 self.hwInterface.set("sirupValve", 1)
                 self.hwInterface.set("waterPump", 0)
                 self.hwInterface.set("waterValve", 1)
                 if self.userSelectLemonade:
-                    self.hwInterface.putString("\nChanging lemonade now")
+                    self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Lemonade")
                 else:
-                    self.hwInterface.putString("\nChanging water now")
+                    self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Water")
