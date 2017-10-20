@@ -2,14 +2,14 @@ from tkinter import *
 import lemonator
 
 class sharedVariables():
-    usingHardware = True
+    usingHardware = False
 
     if usingHardware:
-        hw = lemonator.lemonator(2)
+        hw = lemonator.lemonator(3)
         fluidLevel = hw.distance
         liquidTemperature = hw.temperature
         isCupPresent = hw.reflex
-        sirupPump = hw.sirup_pump
+        sirupPump = hw.sirup_pumps
         sirupValve = hw.sirup_valve
         waterPump = hw.water_pump
         waterValve = hw.water_valve
@@ -68,8 +68,9 @@ class sharedVariables():
         if newValue != sharedVariables.lcdString:
             self.emptyLcd()
             sharedVariables.lcdString = newValue
-            for c in newValue:
-                sharedVariables.lcd.putc(c) #self.putc(c)
+            if sharedVariables.usingHardware:
+                for c in newValue:
+                    sharedVariables.lcd.putc(c) #self.putc(c)
 
     def emptyLcd(self):
         if sharedVariables.usingHardware:

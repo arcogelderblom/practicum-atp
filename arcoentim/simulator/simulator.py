@@ -36,4 +36,4 @@ class simulator():
     def updateValues(self):
         self.sim.updateLabels()
         self.control.updateLabels()
-        self.gui.master.after(1000, self.updateValues)
+        self.gui.master.after(100, self.updateValues)
