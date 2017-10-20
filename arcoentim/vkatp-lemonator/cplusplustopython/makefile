@@ -8,7 +8,7 @@
 # 
 #############################################################################
 
-PROJECT := controllerCPlusPlus
+PROJECT := main
 
 # source files in this project (main.cpp is automatically assumed)
 SOURCES := rs232.c controllerCPlusPlus.cpp

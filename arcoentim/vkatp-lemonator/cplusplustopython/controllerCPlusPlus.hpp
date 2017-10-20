@@ -2,6 +2,8 @@
 #define CONTROLLERCPLUSPLUS_HPP
 
 #include <string>
+#include <map>
+#include <functional>
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
@@ -10,10 +12,22 @@
 
 namespace py = pybind11;
 
+//PYBIND11_PLUGIN(thing) {
+//    py::module m("StrategyFramework", "Example strategy framework");
+//}
+
+//py::object l = py::module::import().attr();
+
+
+
 class controllerCPlusPlus {
 private:
-    //py::module gui = py::module::import("gui");
+    //py::object gui = py::module::import("gui");//.attr("sharedVariables")();
     //py::object hwInterface = gui.attr("sharedVariables")();
+    //py::module moduleThing = py::reinterpret_borrow<py::object>(gui);
+    //auto hwInterface = moduleThing.attr("sharedVariables");
+    //py::function::call()
+    //py::module m("gui", "gui thing");
     
     std::string userLemonadeValue = "0";
     std::string userWaterValue = "0";
@@ -22,11 +36,14 @@ private:
     int originalDistance = 100;
     int currentLevel = 0;
     
+    std::map<char, std::function<void()>> buttonActions;
+    
 public:
     controllerCPlusPlus();
     
     void keypadButton(char buttonValue);
     void assignDrinkValues(char value);
+    void updateLabels(void);
 };
 
 #endif // CONTROLLERCPLUSPLUS_HPP
