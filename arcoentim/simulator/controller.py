@@ -2,8 +2,6 @@ from tkinter import *
 import gui
 
 class controller():
-    userInterface = gui.gui
-
     ## Control variables
     hwInterface = gui.sharedVariables()
 

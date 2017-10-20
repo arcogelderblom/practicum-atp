@@ -17,9 +17,6 @@ class simulator():
         ## Create gui
         self.gui = gui.gui()
 
-        ##  Add the hwInterface
-        #self.hwInterface = gui.sharedVariables()
-
         ## Add simulator gui items
         self.sim = simulatorGui.simulatorGui()
 

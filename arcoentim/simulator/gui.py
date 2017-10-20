@@ -94,16 +94,6 @@ class sharedVariables():
         if not sharedVariables.usingHardware:
             sharedVariables.fluidLevel = newValue
 
-    #def read_mc(self, variable):
-    #    if sharedVariables.usingHardware:
-    #        return sharedVariables.__getattribute__(self, variable).read_mc()
-    #    else:
-    #        return sharedVariables.__getattribute__(self, variable)
-
-    #def read_rgb(self):
-    #    return 0
-
-
 class gui(Frame):
     master = None
     def __init__(self):
