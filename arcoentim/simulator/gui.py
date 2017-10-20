@@ -2,14 +2,14 @@ from tkinter import *
 import lemonator
 
 class sharedVariables():
-    usingHardware = False
+    usingHardware = True
 
     if usingHardware:
-        hw = lemonator.lemonator(3)
+        hw = lemonator.lemonator(2)
         fluidLevel = hw.distance
         liquidTemperature = hw.temperature
         isCupPresent = hw.reflex
-        sirupPump = hw.sirup_pumps
+        sirupPump = hw.sirup_pump
         sirupValve = hw.sirup_valve
         waterPump = hw.water_pump
         waterValve = hw.water_valve
