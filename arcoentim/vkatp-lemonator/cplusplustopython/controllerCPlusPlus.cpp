@@ -11,8 +11,8 @@ controllerCPlusPlus::controllerCPlusPlus() {
     buttonActions['8'] = [&](){ assignDrinkValues('8'); };
     buttonActions['9'] = [&](){ assignDrinkValues('9'); };
     buttonActions['0'] = [&](){ assignDrinkValues('0'); };
-    //buttonActions['*'] = [&](){ hwInterface.set("isCupPresent", false); };
-    //buttonActions['#'] = [&](){ hwInterface.set("isCupPresent", true); };
+    buttonActions['*'] = [&](){ hwInterface.set("isCupPresent", false); };
+    buttonActions['#'] = [&](){ hwInterface.set("isCupPresent", true); };
     buttonActions['A'] = [&](){ userSelectLemonade = false; };
     buttonActions['B'] = [&](){ userSelectLemonade = true; };
     buttonActions['C'] = [&](){ userStartMixing = true; };

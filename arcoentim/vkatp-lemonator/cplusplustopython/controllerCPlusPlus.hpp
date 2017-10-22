@@ -12,22 +12,11 @@
 
 namespace py = pybind11;
 
-//PYBIND11_PLUGIN(thing) {
-//    py::module m("StrategyFramework", "Example strategy framework");
-//}
-
-//py::object l = py::module::import().attr();
-
-
 
 class controllerCPlusPlus {
 private:
-    //py::object gui = py::module::import("gui");//.attr("sharedVariables")();
-    //py::object hwInterface = gui.attr("sharedVariables")();
-    //py::module moduleThing = py::reinterpret_borrow<py::object>(gui);
-    //auto hwInterface = moduleThing.attr("sharedVariables");
-    //py::function::call()
-    //py::module m("gui", "gui thing");
+    py::object gui = py::module::import("gui");
+    py::object hwInterface = gui.attr("sharedVariables")();
     
     std::string userLemonadeValue = "0";
     std::string userWaterValue = "0";
