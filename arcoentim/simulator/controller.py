@@ -44,20 +44,20 @@ class controller():
             self.userWaterValue += value
 
     def pumpTestIfOn(self, amountWater):
-        """ Test if the pump is turining on if you select a water amount and notify the system that you want it to start
+        """ 
+            Test if the pump is turining on if you select a water amount and notify the system that you want it to start
             creating a drink.
             >>> control = controller()
             >>> control.pumpTestIfOn(10)
             1
             >>> control.pumpTestIfOn(0)
             0
-
         """
         self.userWaterValue = str(amountWater)
         self.userStartMixing = True
         self.hwInterface.set("isCupPresent", True)
         self.updateLabels()
-        return self.hwInterface.get("waterPump")
+        return self.hwInterface.get("waterPump") and not self.hwInterface.get("waterValve")
 
 
     def updateLabels(self):
@@ -113,4 +113,4 @@ class controller():
                 else:
                     self.hwInterface.putString("Start(C)\nW(A): " + str(int(self.userWaterValue)) + "\nL(B): " + str(int(self.userLemonadeValue)) + "\nChange W")
 
-doctest.testmod()
+print(doctest.testmod())
