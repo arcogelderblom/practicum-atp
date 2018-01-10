@@ -11,10 +11,10 @@
 PROJECT := lemonator
 
 # source files in this project (main.cpp is automatically assumed)
-SOURCES := rs232.c
+SOURCES := rs232.c controllerCPlusPlus.cpp
 
 # header files in this project
-HEADERS :=
+HEADERS := controllerCPlusPlus.hpp
 
 # other places to look for files for this project
 SEARCH  := 

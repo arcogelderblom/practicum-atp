@@ -34,6 +34,8 @@
     <File Name="controllerCPlusPlus.hpp"/>
     <File Name="controllerCPlusPlus.pyd"/>
     <File Name="makefile"/>
+    <File Name="simulatorCPlusPlus.hpp"/>
+    <File Name="simulatorCPlusPlus.cpp"/>
   </VirtualDirectory>
   <Settings Type="Dynamic Library">
     <GlobalSettings>
@@ -90,7 +92,7 @@
       </Compiler>
       <Linker Options="-O2" Required="yes"/>
       <ResourceCompiler Options="" Required="no"/>
-      <General OutputFile="" IntermediateDirectory="./Release" Command="bmptk-make" CommandArguments="run" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(ProjectPath)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <General OutputFile="" IntermediateDirectory="./Release" Command="bmptk-make" CommandArguments="run" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(ProjectPath)" PauseExecWhenProcTerminates="yes" IsGUIProgram="yes" IsEnabled="yes"/>
       <BuildSystem Name="Default"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>

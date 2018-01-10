@@ -4,6 +4,7 @@
 #include <string>
 #include <map>
 #include <functional>
+#include <iostream>
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
@@ -15,8 +16,8 @@ namespace py = pybind11;
 
 class controllerCPlusPlus {
 private:
-    py::object gui = py::module::import("gui");
-    py::object hwInterface = gui.attr("sharedVariables")();
+    py::object guiFile = py::module::import("gui");
+    py::object hwInterface = guiFile.attr("sharedVariables")();
     
     std::string userLemonadeValue = "0";
     std::string userWaterValue = "0";

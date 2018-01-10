@@ -46,11 +46,11 @@ class controller():
     def pumpTestIfOn(self, amountWater):
         """ Test if the pump is turining on if you select a water amount and notify the system that you want it to start
             creating a drink.
-
-            >>> pumpTestIfOn(10)
-            True
-            >>> pumpTestIfOn(0)
-            False
+            >>> control = controller()
+            >>> control.pumpTestIfOn(10)
+            1
+            >>> control.pumpTestIfOn(0)
+            0
 
         """
         self.userWaterValue = str(amountWater)
