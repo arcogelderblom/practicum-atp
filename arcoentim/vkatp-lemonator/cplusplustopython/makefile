@@ -9,10 +9,10 @@
 #############################################################################
 
 # source files in this project (main.cpp is automatically assumed)
-SOURCES := rs232.c simulatorCPlusPlus.cpp controllerCPlusPlus.cpp 
+SOURCES := rs232.c simulatorCPlusPlus.cpp controllerCPlusPlus.cpp
 
 # header files in this project
-HEADERS := simulatorCPlusPlus.hpp controllerCPlusPlus.hpp 
+HEADERS := simulatorCPlusPlus.hpp controllerCPlusPlus.hpp
 
 # other places to look for files for this project
 SEARCH  := 

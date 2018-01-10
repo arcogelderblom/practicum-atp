@@ -10,9 +10,9 @@ namespace py = pybind11;
 
 class simulatorCPlusPlus {
 private:
-    py::object controller = py::module::import("pythonItems/controller").attr("controller")();
-    //py::object sim = py::module::import("pythonItems/simulatorGui").attr("simulatorGui")();
-    //py::object gui = py::module::import("pythonItems/gui").attr("gui")();
+    py::object controller = py::module::import("controller").attr("controller")();
+    py::object sim = py::module::import("simulatorGui").attr("simulatorGui")();
+    py::object gui = py::module::import("gui").attr("gui")();
 public:
     simulatorCPlusPlus();
     void guiBase();
