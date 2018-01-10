@@ -58,7 +58,7 @@ void controllerCPlusPlus::updateLabels(void) {
                 originalDistanceSet = true;
             }
                 
-            //hwInterface.attr("putString")("Pouring your drink\nWater: " + itoa(std::stoi(userWaterValue))) + " Lemonade: " + std::itoa(std::stoi(userLemonadeValue)));
+            hwInterface.attr("putString")("Pouring your drink\nWater: " + userWaterValue + " Lemonade: " + userLemonadeValue);
             if (currentLevel < std::stoi(userLemonadeValue)) {
                 hwInterface.attr("putString")("\nNow pouring: lemonade");
                 hwInterface.attr("set")("sirupPump", 1);
@@ -94,10 +94,10 @@ void controllerCPlusPlus::updateLabels(void) {
             hwInterface.attr("set")("waterPump", 0);
             hwInterface.attr("set")("waterValve", 1);
             if (userSelectLemonade) {
-                //hwInterface.attr("putString")("Start(C)\nWater(A): " + std::itoa(std::stoi(userWaterValue)) + "\nLemonade(B): " + std::itoa(std::stoi(userLemonadeValue)) + "\nChange Lemonade");
+                hwInterface.attr("putString")("Start(C)\nWater(A): " + userWaterValue + "\nLemonade(B): " + userLemonadeValue + "\nChange Lemonade");
             }
             else {
-                //hwInterface.attr("putString")("Start(C)\nWater(A): " + std::itoa(std::stoi(userWaterValue)) + "\nLemonade(B): " + std::itoa(std::stoi(userLemonadeValue)) + "\nChange Water");
+                hwInterface.attr("putString")("Start(C)\nWater(A): " + userWaterValue + "\nLemonade(B): " + userLemonadeValue + "\nChange Water");
             }
         }
     }
