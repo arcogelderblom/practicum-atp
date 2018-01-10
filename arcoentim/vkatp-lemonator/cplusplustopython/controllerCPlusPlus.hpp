@@ -22,6 +22,7 @@ private:
     std::string userWaterValue = "0";
     bool userSelectLemonade = true;
     bool userStartMixing = false;
+    bool originalDistanceSet = true;
     int originalDistance = 100;
     int currentLevel = 0;
     
