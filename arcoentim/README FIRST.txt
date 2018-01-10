@@ -5,7 +5,7 @@ de naam:
 *	Testrapportage: 'Testrapport.docx'
 
 De simulator in Python is te vinden in de map 'simulator'. Wanneer de main.py wordt 
-gedraaid zal de simulator starten. Afhankelijk van de waarde van 'useHardware' binnen het 
+gedraaid zal de simulator starten. Afhankelijk van de waarde van 'usingHardware' binnen het 
 bestand 'gui.py' zal de simulator zelf simuleren of een aangesloten lemonator verwachten. 
 Hierbij staat True voor het gebruiken van de hardware en moet er dus een lemonator 
 aangesloten zijn, False staat voor het gebruiken van eigen waarden. Wanneer er False wordt 
