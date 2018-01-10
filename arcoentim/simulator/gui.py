@@ -1,8 +1,10 @@
 from tkinter import *
 import lemonator
+import math
 
 class sharedVariables():
-    usingHardware = True
+    usingHardware = False
+    originalDistance = 88
 
     if usingHardware:
         hw = lemonator.lemonator(2)
@@ -16,7 +18,7 @@ class sharedVariables():
         keypad = hw.keypad
         lcd = hw.lcd
     else:
-        fluidLevel = 100
+        fluidLevel = 88 # We measured the original distance that the sensor reads at 88 mm
         liquidTemperature = 10
         isCupPresent = False
         sirupPump = 0
@@ -83,16 +85,22 @@ class sharedVariables():
             return sharedVariables.lcdString
 
     ## Sensor
-    def read_mm(self):
-        if sharedVariables.usingHardware:
-            return sharedVariables.fluidLevel.read_mm()
-        else:
-            return sharedVariables.fluidLevel
+    def sensorMmToMl(self, value):
+        return value * math.pi * 3.5**2
 
-    def write_mm(self, newValue):
+    def sensorMlToMm(self, value):
+        return value / (math.pi * 3.5**2)
+
+    def read_ml(self):
+        if sharedVariables.usingHardware:
+            return self.sensorMmToMl(self.originalDistance-sharedVariables.fluidLevel.read_mm())
+        else:
+            return self.sensorMmToMl(self.originalDistance-sharedVariables.fluidLevel)
+
+    def write_ml(self, newValue):
         ## This function cannot be used on the hardware variables
         if not sharedVariables.usingHardware:
-            sharedVariables.fluidLevel = newValue
+            sharedVariables.fluidLevel = self.originalDistance-self.sensorMlToMm(newValue)
 
 class gui(Frame):
     master = None

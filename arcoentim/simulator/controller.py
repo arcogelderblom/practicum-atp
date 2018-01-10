@@ -10,8 +10,6 @@ class controller():
     userWaterValue = "0"
     userSelectLemonade = True  # True = lemonade, False = water
     userStartMixing = False
-    originalDistance = 100
-    originalDistanceSet = False
     currentLevel = 0
 
     def keypadButton(self, buttonValue):
@@ -77,15 +75,11 @@ class controller():
         ## If the cup is present start checking some other things
         elif self.hwInterface.get("isCupPresent"):
             if self.userStartMixing:
-                if self.originalDistanceSet:
-                    self.currentLevel = self.originalDistance - self.hwInterface.read_mm()
-                else:
-                    self.originalDistance = self.hwInterface.read_mm()
-                    self.originalDistanceSet = True
+                self.currentLevel = self.hwInterface.read_ml()
 
-                self.hwInterface.putString("Pouring your drink\nWater: " + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
+                self.hwInterface.putString("Pouring")#\nWater:" + str(int(self.userWaterValue)) + " Lemonade: " + str(int(self.userLemonadeValue)))
                 if self.currentLevel < int(self.userLemonadeValue):
-                    self.hwInterface.putString("\nNow pouring: lemonade")
+                    #self.hwInterface.putString("\nNow pouring: lemonade")
                     self.hwInterface.set("sirupPump", 1)
                     self.hwInterface.set("sirupValve", 0)
                     self.hwInterface.set("waterPump", 0)
@@ -96,7 +90,7 @@ class controller():
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
                     self.hwInterface.set("waterValve", 0)
-                    self.hwInterface.putString("\nNow pouring: water")
+                    #self.hwInterface.putString("\nNow pouring: water")
 
                 else:
                     self.hwInterface.set("sirupPump", 0)
@@ -106,9 +100,8 @@ class controller():
                     self.userStartMixing = False
                     self.userWaterValue = "0"
                     self.userLemonadeValue = "0"
-                    self.hwInterface.write_mm(100)
-                    self.originalDistanceSet = False
-                    self.currentLevel = 0
+                    #self.hwInterface.write_mm(100)
+                    #self.currentLevel = 0
 
             elif not self.userStartMixing:
                 self.hwInterface.set("sirupPump", 0)
@@ -116,8 +109,8 @@ class controller():
                 self.hwInterface.set("waterPump", 0)
                 self.hwInterface.set("waterValve", 1)
                 if self.userSelectLemonade:
-                    self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Lemonade")
+                    self.hwInterface.putString("Start(C)\nW(A): " + str(int(self.userWaterValue)) + "\nL(B): " + str(int(self.userLemonadeValue)) + "\nChange L")
                 else:
-                    self.hwInterface.putString("Start(C)\nWater(A): " + str(int(self.userWaterValue)) + "\nLemonade(B): " + str(int(self.userLemonadeValue)) + "\nChange Water")
+                    self.hwInterface.putString("Start(C)\nW(A): " + str(int(self.userWaterValue)) + "\nL(B): " + str(int(self.userLemonadeValue)) + "\nChange W")
 
 doctest.testmod()

@@ -1,6 +1,7 @@
 from tkinter import *
 import lemonatorLogger
 import gui
+from time import time
 
 class simulatorGui():
     userInterface = gui.gui
@@ -8,11 +9,12 @@ class simulatorGui():
     log = lemonatorLogger.lemonatorLogger("log.txt")
 
     def __init__(self):
+        self.previousTime = time()
         self.guiBase()
 
     def guiBase(self):
         ## Label for level sensor
-        self.levelSensorLabel = Label(self.userInterface.master, text="Level Sensor: {} ml".format(self.hwInterface.read_mm()))
+        self.levelSensorLabel = Label(self.userInterface.master, text="Level Sensor: {} ml".format(self.hwInterface.read_ml()))
         self.levelSensorLabel.pack()
 
         ## Label for sirup pump
@@ -38,6 +40,11 @@ class simulatorGui():
         ## LCD
         self.lcdValueLabel = Label(self.userInterface.master, text="LCD Value: {}".format(self.hwInterface.getString()))
         self.lcdValueLabel.place(x=100, y=200)
+
+        #Button(self.userInterface.master, text="Empty cup", command=lambda: self.hwInterface.write_mm(self.originalDistance)).place(x=330, y=180)
+        Button(self.userInterface.master, text="Remove cup", command=lambda: self.hwInterface.set("isCupPresent", False)).place(x=330, y=210)
+        Button(self.userInterface.master, text="Put cup in machine", command=lambda: self.hwInterface.set("isCupPresent", True)).place(x=330, y=240)
+
 
         Button(self.userInterface.master, text="1", command=lambda: self.keypadButton("1")).place(x=160, y=300)
         Button(self.userInterface.master, text="2", command=lambda: self.keypadButton("2")).place(x=210, y=300)
@@ -67,12 +74,33 @@ class simulatorGui():
 
 
     def updateLabels(self):
+        ## If the cup is not present reset the fluid level to 0
+        if not self.hwInterface.get("isCupPresent"):
+            self.hwInterface.write_ml(0)
+
         ## If the pumps are open add something to the mm value (should become substract)
-        if self.hwInterface.get("sirupPump") or self.hwInterface.get("waterPump"):
-            self.hwInterface.write_mm(self.hwInterface.read_mm() - 0.1)
+        if self.hwInterface.get("sirupPump"):
+            currentTime = time()
+            ## Wait for the 3 second rampup
+            if currentTime - self.previousTime >= 3:
+                self.hwInterface.write_ml(self.hwInterface.read_ml() + 0.1)
+
+        elif self.hwInterface.get("waterPump"):
+            # Set the previous time after switching pumps
+            if not self.previousSet:
+                self.previousTime = time()
+                self.previousSet = True
+            currentTime = time()
+            ## Wait for the 3 second rampup
+            if currentTime - self.previousTime >= 3:
+                self.hwInterface.write_ml(self.hwInterface.read_ml() + 0.1)
+
+        else:
+            self.previousTime = time()
+            self.previousSet = False
 
         ## Update labels
-        self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_mm()))
+        self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_ml()))
         self.sirupPumpLabel.config(text="Sirup Pump: {}".format(self.hwInterface.get("sirupPump")))
         self.sirupValveLabel.config(text="Sirup Valve: {}".format(self.hwInterface.get("sirupValve")))
         self.waterPumpLabel.config(text="Water Pump: {}".format(self.hwInterface.get("waterPump")))
@@ -82,7 +110,7 @@ class simulatorGui():
 
 
         ## Log updated variables
-        self.log.addSensorInfoLine("waterlevelSensor", self.hwInterface.read_mm())
+        self.log.addSensorInfoLine("waterlevelSensor", self.hwInterface.read_ml())
         self.log.addSensorInfoLine("sirupPumpValue", self.hwInterface.get("sirupPump"))
         self.log.addSensorInfoLine("sirupValveValue", self.hwInterface.get("sirupValve"))
         self.log.addSensorInfoLine("waterPumpValue", self.hwInterface.get("waterPump"))
