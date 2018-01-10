@@ -51,16 +51,15 @@ void controllerCPlusPlus::updateLabels(void) {
     else if (hwInterface.attr("get")("isCupPresent")) {
         if (userStartMixing) {
             if (originalDistanceSet) {
-                currentLevel = originalDistance - hwInterface.attr("read_mm")().cast<int>();
+                currentLevel = originalDistance - hwInterface.attr("read_ml")().cast<int>();
             }
             else {
                 originalDistance = hwInterface.attr("read_mm")().cast<int>();
                 originalDistanceSet = true;
             }
                 
-            hwInterface.attr("putString")("Pouring your drink\nWater: " + userWaterValue + " Lemonade: " + userLemonadeValue);
+            hwInterface.attr("putString")("Pouring");
             if (currentLevel < std::stoi(userLemonadeValue)) {
-                hwInterface.attr("putString")("\nNow pouring: lemonade");
                 hwInterface.attr("set")("sirupPump", 1);
                 hwInterface.attr("set")("sirupValve", 0);
                 hwInterface.attr("set")("waterPump", 0);
@@ -72,7 +71,6 @@ void controllerCPlusPlus::updateLabels(void) {
                 hwInterface.attr("set")("sirupValve", 1);
                 hwInterface.attr("set")("waterPump", 1);
                 hwInterface.attr("set")("waterValve", 0);
-                hwInterface.attr("putString")("\nNow pouring: water");
             }
 
             else {
@@ -83,9 +81,7 @@ void controllerCPlusPlus::updateLabels(void) {
                 userStartMixing = false;
                 userWaterValue = "0";
                 userLemonadeValue = "0";
-                hwInterface.attr("write_mm")(100);
                 originalDistanceSet = false;
-                currentLevel = 0;
             }
         }
         else if (!userStartMixing) {
@@ -94,10 +90,10 @@ void controllerCPlusPlus::updateLabels(void) {
             hwInterface.attr("set")("waterPump", 0);
             hwInterface.attr("set")("waterValve", 1);
             if (userSelectLemonade) {
-                hwInterface.attr("putString")("Start(C)\nWater(A): " + userWaterValue + "\nLemonade(B): " + userLemonadeValue + "\nChange Lemonade");
+                hwInterface.attr("putString")("Start(C)\nW(A): " + userWaterValue + "\nL(B): " + userLemonadeValue + "\nChange L");
             }
             else {
-                hwInterface.attr("putString")("Start(C)\nWater(A): " + userWaterValue + "\nLemonade(B): " + userLemonadeValue + "\nChange Water");
+                hwInterface.attr("putString")("Start(C)\nW(A): " + userWaterValue + "\nL(B): " + userLemonadeValue + "\nChange W");
             }
         }
     }

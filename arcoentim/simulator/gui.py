@@ -3,7 +3,7 @@ import lemonator
 import math
 
 class sharedVariables():
-    usingHardware = False
+    usingHardware = True
     originalDistance = 88
 
     if usingHardware:
