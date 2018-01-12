@@ -1,14 +1,14 @@
 from tkinter import *
 import lemonator
-import math,time
+import math, time
 
 class sharedVariables():
-    usingHardware = True
+    usingHardware = False
     originalDistance = 88
 
     if usingHardware:
         hw = lemonator.lemonator(2)
-        print("Initializing Lemonator.")
+        print("Initializing Lemonator...")
         time.sleep(3)
         fluidLevel = hw.distance
         liquidTemperature = hw.temperature
@@ -48,7 +48,10 @@ class sharedVariables():
     ## Keypad
     def getCKeypad(self, variable):
         if sharedVariables.usingHardware:
-            return sharedVariables.__getattribute__(sharedVariables, variable).getc()
+            value = sharedVariables.__getattribute__(sharedVariables, variable).getc()
+            if value == "C":
+                sharedVariables.originalDistance = sharedVariables.fluidLevel.read_mm()
+            return value
         else:
             char = sharedVariables.keypad
             sharedVariables.keypad = ""
@@ -88,21 +91,21 @@ class sharedVariables():
 
     ## Sensor
     def sensorMmToMl(self, value):
-        return value * math.pi * 3.5**2
+        return value * math.pi * 35**2 / 1000
 
     def sensorMlToMm(self, value):
-        return value / (math.pi * 3.5**2)
+        return (value * 1000) / (math.pi * 35**2)
 
     def read_ml(self):
         if sharedVariables.usingHardware:
-            return self.sensorMmToMl(self.originalDistance-sharedVariables.fluidLevel.read_mm())
+            return self.sensorMmToMl(sharedVariables.originalDistance-sharedVariables.fluidLevel.read_mm())
         else:
-            return self.sensorMmToMl(self.originalDistance-sharedVariables.fluidLevel)
+            return self.sensorMmToMl(sharedVariables.originalDistance-sharedVariables.fluidLevel)
 
     def write_ml(self, newValue):
         ## This function cannot be used on the hardware variables
         if not sharedVariables.usingHardware:
-            sharedVariables.fluidLevel = self.originalDistance-self.sensorMlToMm(newValue)
+            sharedVariables.fluidLevel = sharedVariables.originalDistance-self.sensorMlToMm(newValue)
 
 class gui(Frame):
     master = None

@@ -74,46 +74,55 @@ class simulatorGui():
 
 
     def updateLabels(self):
+        currentAmount = self.hwInterface.read_ml()
+        cupPresent = self.hwInterface.get("isCupPresent")
+        if not self.hwInterface.usingHardware:
+            sirupPump = self.hwInterface.get("sirupPump")
+            sirupValve = self.hwInterface.get("sirupValve")
+            waterPump = self.hwInterface.get("waterPump")
+            waterValve = self.hwInterface.get("waterValve")
         ## If the cup is not present reset the fluid level to 0
-        if not self.hwInterface.get("isCupPresent"):
+        if not cupPresent:
             self.hwInterface.write_ml(0)
 
-        ## If the pumps are open add something to the mm value (should become substract)
-        if self.hwInterface.get("sirupPump"):
-            currentTime = time()
-            ## Wait for the 3 second rampup
-            if currentTime - self.previousTime >= 3:
-                self.hwInterface.write_ml(self.hwInterface.read_ml() + 0.1)
+        if not self.hwInterface.usingHardware:
+            ## If the pumps are open add something to the mm value (should become substract)
+            if sirupPump:
+                currentTime = time()
+                ## Wait for the 3 second rampup
+                if currentTime - self.previousTime >= 3:
+                    self.hwInterface.write_ml(currentAmount + 0.1)
 
-        elif self.hwInterface.get("waterPump"):
-            # Set the previous time after switching pumps
-            if not self.previousSet:
+            elif waterPump:
+                # Set the previous time after switching pumps
+                if not self.previousSet:
+                    self.previousTime = time()
+                    self.previousSet = True
+                currentTime = time()
+                ## Wait for the 3 second rampup
+                if currentTime - self.previousTime >= 3:
+                    self.hwInterface.write_ml(currentAmount + 0.1)
+
+            else:
                 self.previousTime = time()
-                self.previousSet = True
-            currentTime = time()
-            ## Wait for the 3 second rampup
-            if currentTime - self.previousTime >= 3:
-                self.hwInterface.write_ml(self.hwInterface.read_ml() + 0.1)
+                self.previousSet = False
 
-        else:
-            self.previousTime = time()
-            self.previousSet = False
+            ## Update labels
+            self.levelSensorLabel.config(text="Level Sensor: {} ml".format(currentAmount))
+            self.sirupPumpLabel.config(text="Sirup Pump: {}".format(sirupPump))
+            self.sirupValveLabel.config(text="Sirup Valve: {}".format(sirupValve))
+            self.waterPumpLabel.config(text="Water Pump: {}".format(waterPump))
+            self.waterValveLabel.config(text="Water Valve: {}".format(waterValve))
 
-        ## Update labels
-        self.levelSensorLabel.config(text="Level Sensor: {} ml".format(self.hwInterface.read_ml()))
-        self.sirupPumpLabel.config(text="Sirup Pump: {}".format(self.hwInterface.get("sirupPump")))
-        self.sirupValveLabel.config(text="Sirup Valve: {}".format(self.hwInterface.get("sirupValve")))
-        self.waterPumpLabel.config(text="Water Pump: {}".format(self.hwInterface.get("waterPump")))
-        self.waterValveLabel.config(text="Water Valve: {}".format(self.hwInterface.get("waterValve")))
-        self.cupPresentLabel.config(text="Is a cup present: {}".format(self.hwInterface.get("isCupPresent")))
+            ## Log updated variables
+            self.log.addSensorInfoLine("waterlevelSensor", currentAmount)
+            self.log.addSensorInfoLine("sirupPumpValue", sirupPump)
+            self.log.addSensorInfoLine("sirupValveValue", sirupValve)
+            self.log.addSensorInfoLine("waterPumpValue", waterPump)
+            self.log.addSensorInfoLine("WaterValveValue", waterValve)
+
+        self.cupPresentLabel.config(text="Is a cup present: {}".format(cupPresent))
         self.lcdValueLabel.config(text="LCD Value: {}".format(self.hwInterface.getString()))
 
-
-        ## Log updated variables
-        self.log.addSensorInfoLine("waterlevelSensor", self.hwInterface.read_ml())
-        self.log.addSensorInfoLine("sirupPumpValue", self.hwInterface.get("sirupPump"))
-        self.log.addSensorInfoLine("sirupValveValue", self.hwInterface.get("sirupValve"))
-        self.log.addSensorInfoLine("waterPumpValue", self.hwInterface.get("waterPump"))
-        self.log.addSensorInfoLine("WaterValveValue", self.hwInterface.get("waterValve"))
-        self.log.addSensorInfoLine("Reflex", self.hwInterface.get("isCupPresent"))
+        self.log.addSensorInfoLine("Reflex", cupPresent)
         self.log.addSensorInfoLine("lcd", self.hwInterface.getString())

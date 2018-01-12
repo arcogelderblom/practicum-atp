@@ -63,7 +63,7 @@ class controller():
     def updateLabels(self):
         ## Change variables
         self.keypadButton(self.hwInterface.getCKeypad("keypad"))
-
+        
         ## Check if a cup is in the machine
         if not self.hwInterface.get("isCupPresent"):
             self.hwInterface.set("sirupPump", 0)
@@ -85,7 +85,7 @@ class controller():
                     self.hwInterface.set("waterPump", 0)
                     self.hwInterface.set("waterValve", 1)
 
-                elif self.currentLevel >= int(self.userLemonadeValue) and self.currentLevel < int(self.userWaterValue) + int(self.userLemonadeValue):
+                elif (self.currentLevel >= int(self.userLemonadeValue)) and (self.currentLevel < (int(self.userWaterValue) + int(self.userLemonadeValue))):
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
