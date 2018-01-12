@@ -12,6 +12,10 @@ class controller():
     userStartMixing = False
     currentLevel = 0
 
+    def resetDrinkValues(self):
+        self.userWaterValue = "0"
+        self.userLemonadeValue = "0"
+
     def keypadButton(self, buttonValue):
         try:
             ## needs to be changed to setc() so the chars can be retreived with getc()
@@ -30,7 +34,7 @@ class controller():
                                     'A': lambda: self.__setattr__("userSelectLemonade", False), # Select water amount
                                     'B': lambda: self.__setattr__("userSelectLemonade", True), # Select lemonade amount
                                     'C': lambda: self.__setattr__("userStartMixing", True), # Start mixing
-                                    'D': lambda: print('D')}
+                                    'D': lambda: self.resetDrinkValues()} # Reset drink values when the cup is emptyed
 
             ## Execute watever the lambda function needs to
             correspondingActions[buttonValue]()
@@ -63,7 +67,7 @@ class controller():
     def updateLabels(self):
         ## Change variables
         self.keypadButton(self.hwInterface.getCKeypad("keypad"))
-
+        
         ## Check if a cup is in the machine
         if not self.hwInterface.get("isCupPresent"):
             self.hwInterface.set("sirupPump", 0)
@@ -85,7 +89,7 @@ class controller():
                     self.hwInterface.set("waterPump", 0)
                     self.hwInterface.set("waterValve", 1)
 
-                elif self.currentLevel >= int(self.userLemonadeValue) and self.currentLevel < int(self.userWaterValue) + int(self.userLemonadeValue):
+                elif (self.currentLevel >= int(self.userLemonadeValue)) and (self.currentLevel < (int(self.userWaterValue) + int(self.userLemonadeValue))):
                     self.hwInterface.set("sirupPump", 0)
                     self.hwInterface.set("sirupValve", 1)
                     self.hwInterface.set("waterPump", 1)
@@ -98,8 +102,7 @@ class controller():
                     self.hwInterface.set("waterPump", 0)
                     self.hwInterface.set("waterValve", 1)
                     self.userStartMixing = False
-                    self.userWaterValue = "0"
-                    self.userLemonadeValue = "0"
+                    self.resetDrinkValues()
                     #self.hwInterface.write_mm(100)
                     #self.currentLevel = 0
 
