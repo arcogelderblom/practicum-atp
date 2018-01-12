@@ -41,7 +41,7 @@ class simulatorGui():
         self.lcdValueLabel = Label(self.userInterface.master, text="LCD Value: {}".format(self.hwInterface.getString()))
         self.lcdValueLabel.place(x=100, y=200)
 
-        #Button(self.userInterface.master, text="Empty cup", command=lambda: self.hwInterface.write_mm(self.originalDistance)).place(x=330, y=180)
+        Button(self.userInterface.master, text="Empty cup", command=lambda: self.keypadButton('D')).place(x=330, y=180)
         Button(self.userInterface.master, text="Remove cup", command=lambda: self.hwInterface.set("isCupPresent", False)).place(x=330, y=210)
         Button(self.userInterface.master, text="Put cup in machine", command=lambda: self.hwInterface.set("isCupPresent", True)).place(x=330, y=240)
 
