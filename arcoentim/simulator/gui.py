@@ -1,13 +1,15 @@
 from tkinter import *
 import lemonator
-import math
+import math,time
 
 class sharedVariables():
-    usingHardware = False
+    usingHardware = True
     originalDistance = 88
 
     if usingHardware:
         hw = lemonator.lemonator(2)
+        print("Initializing Lemonator.")
+        time.sleep(3)
         fluidLevel = hw.distance
         liquidTemperature = hw.temperature
         isCupPresent = hw.reflex
